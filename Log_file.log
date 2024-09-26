@@ -1920,3 +1920,73 @@
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:37"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:59"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:23"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 15:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 15:09:20"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:08"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:05"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 15:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 15:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:11"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:14"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/loadchemist | IP -> ::1 | Error Getting Data from dB | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 15:09:08"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 15:09:47"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/getproductimage | IP -> ::1 | Error Getting Data from DB | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 15:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page rendered | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 15:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:24"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 15:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:13"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:33"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:87"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 15:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Sanjay Garg Added | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 15:09:35"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 15:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:08"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:41"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:47"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 18:09:01"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 18:09:09"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 18:09:11"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 18:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 18:09:83"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 18:09:85"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 18:09:87"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 18:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 18:09:69"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/permissiondata | IP -> ::1 | Error Getting Data from DB | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 18:09:56"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-26 18:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminregistrations | IP -> ::1 | Rendered the admin registrations page | Admin Registrations | ","metadata":{},"timestamp":"24-09-26 18:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 18:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:08"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:41"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:86"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 18:09:92"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/permissiondata | IP -> ::1 | Error Getting Data from DB | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 18:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:100"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:78"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 18:09:83"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 18:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:24"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 18:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:56"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:87"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 19:09:28"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/permissiondata | IP -> ::1 | Error Getting Data from DB | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 19:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:93"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:61"}

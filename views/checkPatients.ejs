@@ -12,6 +12,7 @@
   <script src="https://apis.google.com/js/platform.js" async defer></script>
 
   <link rel='stylesheet' href='/stylesheets/admindashboard.css' />
+  <link rel='stylesheet' href='/stylesheets/checkPatients.css' />
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
   <!-- Google Fonts -->
@@ -170,10 +171,126 @@
       <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
+     
   </header>
   <!--Main Navigation-->
 
+  <main style="margin-top: 58px">
+    <div class="container pt-4">
+      <section class="mb-4">
+        <div class="card">
+          <div class="card-header text-center py-3">
+            <h5 class="mb-0 text-center">
+              Welcome Patient
+            </h5>
+          </div>
+        <div>
+          <div class="card">
+            <div class="card-header"style="color:white; background-color:green;">
+              <h5 class="mb-0 text-center">
+                Medical Condition
+              </h5>
+            </div>
+          <div>
+  </section>
+  
 
+</div>
+<div class="contain">
+  <!-- Left Side Image -->
+  <div class="side">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kcCJ3rHlDohwnXda3f84Q6zsZLLqXBNTuA&s" alt="Left Side Image">
+  </div>
+
+  <!-- Center Textarea -->
+  <div class="center">
+      <textarea placeholder="Enter your text here..."></textarea>
+  </div>
+
+  <!-- Right Side Image -->
+  <div class="side">
+      <img src="data:image/jpeg;base64,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" alt="Right Side Image">
+  </div>
+</div>
+</div>
+
+
+<div class="card">
+  <div class="card-header text-center py-3">
+    <h5 class="mb-0 text-center">
+      <strong>Patient's Details</strong>
+    </h5>
+  </div>
+  <div class="card-body">
+    <div class="table-responsive">
+      <table class="table table-hover text-nowrap" id="user-table">
+        <thead style="background-color: black; color:  white;">
+          <tr>
+            <th scope="col">Patient Name</th>
+            <th scope="col">Doctor Referred</th>
+            <th scope="col">Doctor's Speciality</th>
+            <th scope="col">Medical Condition</th>
+            <th scope="col">Fetch Report</th>                    
+          </tr>
+          </thead>
+          <tr>
+            <td>Rahul Rawat</td>
+            <td>Nishika Garg</td>
+            <td>Pediatrics</td>
+            <td>Normal</td>
+            <td><button type="button" id="submit-btn" class="btn btn-success btn-small ms-1">View Report</button></td>
+          </tr>
+          <tr>
+            <td>Rahul Rawat</td>
+            <td>Nishika Garg</td>
+            <td>Pediatrics</td>
+            <td>Normal</td>
+            <td><button type="button" id="submit-btn" class="btn btn-success btn-small ms-1">View Report</button></td>
+          </tr>
+          <tr>
+            <td>Rahul Rawat</td>
+            <td>Nishika Garg</td>
+            <td>Pediatrics</td>
+            <td>Normal</td>
+            <td><button type="button" id="submit-btn" class="btn btn-success btn-small ms-1">View Report</button></td>
+          </tr>
+          <tr>
+            <td>Rahul Rawat</td>
+            <td>Nishika Garg</td>
+            <td>Pediatrics</td>
+            <td>Normal</td>
+            <td><button type="button" id="submit-btn" class="btn btn-success btn-small ms-1">View Report</button></td>
+          </tr>
+     
+        <tbody>
+
+          
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header text-center py-3">
+    <h5 class="mb-0 text-center">
+      <strong>Prescription</strong>
+    </h5>
+    
+    </div>
+  </div>
+  <div class="form-group">
+    <label>File upload</label>
+    <input type="file" name="img" class="file-upload-default">
+    <div class="input-group col-xs-12">
+      <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
+      <span class="input-group-append">
+        <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
+      </span>
+    </div>
+  </div>
+  </main>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>

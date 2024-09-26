@@ -191,7 +191,7 @@
           <div class="card-body">
             <div class="table-responsive">
               <table class="table table-hover text-nowrap">
-                <form action="/admin/addproduct" method="post">
+                <form action="/admin/addAppointment" method="post">
 
                   <div class="row">
                     <div class="col-md-6 mb-4">
@@ -240,7 +240,7 @@
                       Symptoms
                       <div class="form-outline textBox">
                          
-                            <input type="text" required id="darea" name="darea" class="form-control form-control-lg" /
+                            <input type="text" required id="darea" name="symptoms" class="form-control form-control-lg" /
                                value = "">
                          
                         </div>
@@ -250,7 +250,7 @@
                     
                     <div class="col-md-6 mb-4">
                       Medical Condition
-                      <select class="select form-control" id="" name="workingwith" required>
+                      <select class="select form-control" id="" name="condition" required>
                         <!-- <option value disabled selected>Select Patient Condition</option> -->
                         <option value = "Critical"  >Critical</option>
                         <option value = "Emergency"  >Emergency</option>
@@ -272,7 +272,7 @@
                     <!-- Doctor Contact -->
                     <div class="col-md-6 mb-4">
                       Doctor Speciality
-                            <select class="select form-control" id="dcontact" name="dcontact" onclick="getDoctorList(this)"  required>
+                            <select class="select form-control" id="dcontact" name="speciality" onchange="getDoctorList(this)"  required>
                               <option value="" disabled selected>Select Speciality</option>
                               <option value="Allergy & Immunology">Allergy & Immunology</option>
                               <option value="Anesthesiology">Anesthesiology</option>
@@ -318,7 +318,7 @@
                     <div class="col-md-6 mb-4">
                       Doctor Name
                       <div class="form-outline textBox">
-                        <select class="select form-control" id="doctorName" name="doctorName"  required>  
+                        <select class="select form-control" id="doctorName" name="doctor"  required>  
                           <option value="" selected disabled>Select Speciality</option>                          
                           </select>
                       </div>
@@ -351,10 +351,7 @@
                   </div>
                   <!-- Submit Buttons-->
 
-                  <!-- Prevent from submitting with no particular doctor, stockist and chemist -->
-                  <input type="text" name="formblockerd" id="formblockerd" class="tohideip" required value = "">
-                  <input type="text" name="formblockerc" id="formblockerc" class="tohideip" required value = "">
-                  <input type="text" name="formblockers" id="formblockers" class="tohideip" required value = "">
+                 
                 </form>
               </table>
             </div>
@@ -384,96 +381,6 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td scope="row">103</td>
-                    <td scope="row">Rahul Rawat</td>
-                    <td scope="row">9876543210</td>
-                    <td scope="row">Dr. Nishi</td>
-                    <td scope="row">Tamatarlogy</td>
-                    <td scope="row">1234 5678 9101</td>
-                    <td scope="row">Back Care</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">102</td>
-                    <td scope="row">Neha Sharma</td>
-                    <td scope="row">9123456789</td>
-                    <td scope="row">Dr. Priya Sharma</td>
-                    <td scope="row">Cardiology</td>
-                    <td scope="row">2345 6789 0123</td>
-                    <td scope="row">Heart Care</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">101</td>
-                    <td scope="row">Rohan Singh</td>
-                    <td scope="row">9988776655</td>
-                    <td scope="row">Dr. Anil Kumar</td>
-                    <td scope="row">Neurology</td>
-                    <td scope="row">3456 7890 1234</td>
-                    <td scope="row">Brain & Nerves</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">104</td>
-                    <td scope="row">Pooja Verma</td>
-                    <td scope="row">9812345678</td>
-                    <td scope="row">Dr. Sneha Verma</td>
-                    <td scope="row">Pediatrics</td>
-                    <td scope="row">4567 8901 2345</td>
-                    <td scope="row">Child Care</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">105</td>
-                    <td scope="row">Kunal Desai</td>
-                    <td scope="row">9123678456</td>
-                    <td scope="row">Dr. Ravi Mehta</td>
-                    <td scope="row">Orthopedics</td>
-                    <td scope="row">5678 9012 3456</td>
-                    <td scope="row">Bone & Joint</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">106</td>
-                    <td scope="row">Sneha Patel</td>
-                    <td scope="row">9876541230</td>
-                    <td scope="row">Dr. Anjali Singh</td>
-                    <td scope="row">Gynecology</td>
-                    <td scope="row">6789 0123 4567</td>
-                    <td scope="row">Women's Health</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">107</td>
-                    <td scope="row">Vikas Chawla</td>
-                    <td scope="row">9765432109</td>
-                    <td scope="row">Dr. Vivek Gupta</td>
-                    <td scope="row">Ophthalmology</td>
-                    <td scope="row">7890 1234 5678</td>
-                    <td scope="row">Eye Care</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">108</td>
-                    <td scope="row">Anjali Mehra</td>
-                    <td scope="row">9876012345</td>
-                    <td scope="row">Dr. Suman Patel</td>
-                    <td scope="row">Endocrinology</td>
-                    <td scope="row">8901 2345 6789</td>
-                    <td scope="row">Hormone Care</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">109</td>
-                    <td scope="row">Rajesh Gupta</td>
-                    <td scope="row">9654321098</td>
-                    <td scope="row">Dr. Rakesh Sinha</td>
-                    <td scope="row">Gastroenterology</td>
-                    <td scope="row">9012 3456 7890</td>
-                    <td scope="row">Digestive Care</td>
-                  </tr>
-                  <tr>
-                    <td scope="row">110</td>
-                    <td scope="row">Kavita Desai</td>
-                    <td scope="row">9988001122</td>
-                    <td scope="row">Dr. Kavita Desai</td>
-                    <td scope="row">Psychiatry</td>
-                    <td scope="row">1122 3344 5566</td>
-                    <td scope="row">Mental Health</td>
-                  </tr>
                   
                 </tbody>
               </table>
@@ -548,6 +455,94 @@
       
       })
     }
+
+   
+    function getDoctorList(e){
+      var speciality = e.value;
+      $.getJSON('/admin/getdoctorS/'+speciality,function(data){
+        if (data.length == 0){
+          alert ('No Doctor Found');
+          return;
+        }
+
+        var doctorName = document.getElementById('doctorName');
+        doctorName.innerHTML = '';
+        for (var i = 0; i < data.length; i++){
+          var option = document.createElement('option');
+          option.value = data[i]['email'];
+          option.text = data[i]['name'];
+          doctorName.appendChild(option);
+        }
+      })
+    }
+
+
+    const today = new Date().toISOString().split('T')[0];
+  
+  // Set the min attribute to today's date
+    document.getElementById('date').setAttribute('min', today);
+
+
+    function getAppointments  (){
+      $.getJSON('/admin/getAppointments',function(data){
+        if (data.length == 0){
+          alert ('No Appointments Found');
+          return;
+        }
+
+        var table = $("#user-table").DataTable();
+
+        table.destroy();
+
+        table = document.getElementById("user-table");
+        table.innerHTML = "";
+        table = document.getElementById("user-table");
+        //   console.log (table.innerHTML);
+
+        table.innerHTML = `<thead class = "table-dark">
+                <tr>
+                  <th scope="col">Token No</th>
+                  <th scope="col">Patient Name</th>
+                  <th scope="col">Patient Contact Number</th>
+                  <th scope="col">Doctor Name</th>
+                  <th scope="col">Speciality</th>
+                  <th scope="col">Patient AADHAR ID</th>
+                  <th scope="col">Medical Condition</th>
+                  <th scope="col">Appointment Date</th>
+                </tr>
+              </thead>
+              <tbody id ="tableWork">
+              
+              </tbody>  `;
+
+        $("#user-table").DataTable({
+          dom: "Bfrtip",
+          buttons: [
+
+          ],
+          responsive: true,
+          data: data,
+          columns: [
+            { data: "token" },
+            { data: "name" },
+            { data: "mobile" },
+            { data: "dname" },
+            { data: "specs" },
+            { data: "aadhar" },
+            { data: "mcondition" },
+            { data: "adate" },
+            
+
+          ],
+
+          order : [[0,'desc']]
+        });
+      })
+    }
+
+
+    getAppointments();
+
   </script>
   <!--Main layout-->
 </body>
