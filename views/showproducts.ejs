@@ -207,7 +207,7 @@
                       Patient Name
                       <div class="form-outline textBox">
                         <input type="text" required id="patientName" name="name"
-                          class="form-control form-control-lg" required/>
+                          class="form-control form-control-lg" required/ readonly>
                       </div>
                     </div>
                   </div>
@@ -219,7 +219,7 @@
                     <div class="col-md-6 mb-4">
                       Patient Email
                       <div class="form-outline textBox" >
-                        <input type="text" required id="email" name="email" class="form-control form-control-lg" required/
+                        <input type="text" required id="email" name="email" class="form-control form-control-lg" required/ readonly
                         >
                       </div>
                     </div>
@@ -230,13 +230,42 @@
                     <div class="col-md-6 mb-4">
                       Patient AADHAR ID
                       <div class="form-outline textBox" >
-                        <input type="text" required id="aadhar" name="aadhar" class="form-control form-control-lg" /
+                        <input type="text" required id="aadhar" name="aadhar" class="form-control form-control-lg" / readonly
                          value = "">
                       </div>
                     </div>
 
+                    <!-- Area -->
+                    <div class="col-md-6 mb-4">
+                      Symptoms
+                      <div class="form-outline textBox">
+                         
+                            <input type="text" required id="darea" name="darea" class="form-control form-control-lg" /
+                               value = "">
+                         
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="col-md-6 mb-4">
+                      Medical Condition
+                      <select class="select form-control" id="" name="workingwith" required>
+                        <!-- <option value disabled selected>Select Patient Condition</option> -->
+                        <option value = "Critical"  >Critical</option>
+                        <option value = "Emergency"  >Emergency</option>
+                        <option value = "Normal"  selected>Normal</option>
+  
+                      </select>
+                    </div>
+                  </div>
+
+
+                   
+
                   </div>
                   
+
 
                 
                   <div class="row">
@@ -289,28 +318,11 @@
                     <div class="col-md-6 mb-4">
                       Doctor Name
                       <div class="form-outline textBox">
-                        <input type="text" required id="doctorname" name="doctorname" class="form-control form-control-lg" /
-                           placeholder="Dr. Poonam Jaiswal !" value="Dr. Poonam Jaiswal !">
+                        <select class="select form-control" id="doctorName" name="doctorName"  required>  
+                          <option value="" selected disabled>Select Speciality</option>                          
+                          </select>
                       </div>
                     </div>
-
-
-                    <!-- Area -->
-                    <div class="col-md-6 mb-4">
-                      Symptoms
-                      <div class="form-outline textBox">
-                         
-                            <input type="text" required id="darea" name="darea" class="form-control form-control-lg" /
-                               value = "">
-                         
-                        </div>
-                    </div>
-
-                   
-
-
-                   
-
                     
                     <div id="tohideip" class="tohideip">
                       <input type="text" required id="ip" name="ip" class="form-control form-control-lg" />
@@ -325,18 +337,6 @@
                       </div>
 
                     </div>
-
-                    <div class="col-md-6 mb-4">
-                      Medical Condition
-                      <select class="select form-control" id="" name="workingwith" required>
-                        <!-- <option value disabled selected>Select Patient Condition</option> -->
-                        <option value disabled selected>Critical</option>
-                        <option value disabled selected>Emergency</option>
-                        <option value  >Normal</option>
-  
-                      </select>
-                    </div>
-                  </div>
 
                   </div>
                   <div class="row">
@@ -519,24 +519,7 @@
 
     })
 
-    /* For Getting the users email */
-    $.getJSON('/admin/getemployee',function(data){
-            // console.log (data)
-            $('#employeename').empty()
-            $('#employeename').append($('<option value selected disabled>').text('Select Employee Email'))
-            data.map((item)=>{
-                $('#employeename').append($('<option>').text(item.email).val(item.email))
-            })
-      })
-      
-      /* For getting the admin  names */
-      $.getJSON('/admin/getworkingwith',function(data){
-            $('#workingwith').empty()
-            $('#workingwith').append($('<option value selected disabled>').text('Select Working With'))
-            data.map((item)=>{
-                $('#workingwith').append($('<option>').text(item.name).val(item.name))
-            })
-        })
+  
   
   </script>
 
@@ -550,29 +533,19 @@
   <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.print.min.js"></script>
 
   <script>
-    $(document).ready(function () {
-
-
-      /*For Getting the Admin Names */
-      $.getJSON('/getworkingwith', function (data) {
-          $('#workingwith').empty()
-          $('#workingwith').append($('<option value="" selected disabled>').text('Select Working With'))
-          data.map((item) => {
-              $('#workingwith').append($('<option>').text(item.name).val(item.name))
-          })
-      })
-
-
-    })
-
+    
 
     function getPatient(e){
       var phone = e.value;
       $.getJSON('/admin/getpatient/'+phone,function(data){
-        
-        $('#patientName').val(data.name)
-        $('#email').val(data.email)
-        $('#aadhar').val(data.aadhar)
+        if (data.length == 0){
+          alert ('No Patient Found');
+          return;
+        }
+        document.getElementById('patientName').value = data[0]['name'];
+        document.getElementById('email').value = data[0]['email'];
+        document.getElementById('aadhar').value = data[0]['aadhar'];
+      
       })
     }
   </script>

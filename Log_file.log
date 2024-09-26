@@ -1799,3 +1799,76 @@
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 11:09:20"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 11:09:90"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 11:09:85"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendering Deined |No Admin Login  | ","metadata":{},"timestamp":"24-09-26 12:09:56"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 12:09:56"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:12"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:20"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:69"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:94"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:15"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:12"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:51"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:51"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:83"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:82"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:83"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:13"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:51"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:29"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:92"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:18"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:79"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:17"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:50"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:21"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:21"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:57"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:98"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:54"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:08"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:46"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:46"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:88"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:35"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:76"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:00"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:49"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:15"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:16"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:48"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:70"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getemployee | IP -> ::1 | Getting Users Name | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getworkingwith | IP -> ::1 | Admin Names fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:25"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getworkingwith | IP -> ::1 | Get admin names denied | No user login | ","metadata":{},"timestamp":"24-09-26 12:09:72"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:43"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:19"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:76"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:52"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 12:09:84"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 12:09:09"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 12:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminregistrations | IP -> ::1 | Rendered the admin registrations page | Admin Registrations | ","metadata":{},"timestamp":"24-09-26 12:09:09"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 12:09:18"}
