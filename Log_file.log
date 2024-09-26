@@ -1917,3 +1917,17 @@
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:43"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:44"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:42"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 16:09:21"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 16:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:76"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:11"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:03"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/getdcr | IP -> ::1 | Rendered DCR Admin Page | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 16:09:73"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/getDCRemails | IP -> ::1 | Error Getting Data from DB | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 16:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 16:09:33"}
