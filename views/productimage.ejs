@@ -1,0 +1,278 @@
+<html>
+
+<head>
+  <title>
+    Product Images
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Gooogle Auth-->
+
+  <meta name="google-signin-client_id"
+    content="15064425583-h6gqtm6l884069s03jtuvn8v892u1ukj.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+  <link rel='stylesheet' href='/stylesheets/admindashboard.css' />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.3.2/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.html5.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.print.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.2.2/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  </script>
+
+  <style>
+    .timg {
+      border-radius: 16px;
+
+    }
+
+    /* For Display Border on the Input Text box*/
+    .textBox{
+      border : 1px solid rgb(201, 201, 201);
+      border-radius: 5px;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <!--Main Navigation-->
+  <header>
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+      <div class="position-sticky">
+        <div class="list-group list-group-flush mx-3 mt-4">
+          <a href="/admin/admindashboard" class="list-group-item list-group-item-action py-2 ripple"
+            aria-current="true">
+            <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
+          </a>
+
+          <a href="/admin/showproducts" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fas fa-users fa-fw me-3"></i><span>Show Products</span></a>
+
+          <a href="/admin/adddoctorAdmin" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-address-card fa-fw me-3"></i><span>Check Doctor</span></a>
+
+          <a href="/admin/adduser" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-group fa-fw me-3"></i><span>Check User</span></a>
+
+          <a href="/admin/loadchemist" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-group fa-fw me-3"></i><span>Check Chemist</span></a>
+
+          <a href="/admin/loadstockist" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-group fa-fw me-3"></i><span>Check Stockist</span></a>
+
+
+          <a href="/admin/approveSchedulePage" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-calendar-check-o fa-fw me-3"></i><span>Approve Schedule</span></a>
+
+          <a href="/admin/fetchSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-calendar fa-fw me-3"></i><span>All User's Schedule</span></a>
+
+          <a href="/admin/getdcr" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-calendar fa-fw me-3"></i><span>Add DCR</span></a>
+
+          <a href="/admin/getproductimage" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-file-image-o fa-fw me-3"></i><span>Product Images</span></a>
+
+              <a
+              href="/admin/changepswd"
+              class="list-group-item list-group-item-action py-2 ripple"
+              ><i class="fa fa-fingerprint fa-fw me-3"></i><span>Change Password</span></a
+             >
+
+
+
+        </div>
+      </div>
+    </nav>
+    <!-- Sidebar -->
+
+    <!-- Navbar -->
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+          aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          Admin
+        </a>
+
+        <!-- Right links -->
+        <ul class="navbar-nav ms-auto d-flex flex-row">
+          <!-- Notification dropdown -->
+
+
+          <!-- Icon dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdown" role="button"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              <i class="united kingdom flag m-0"></i>
+            </a>
+          </li>
+          <li class="nav-item" style="display: flex;align-items: center;">
+            <%=adminemail%>
+          </li>
+          <!-- Avatar -->
+          <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
+              id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <img
+                src="https://media.istockphoto.com/id/1250021058/photo/neon-3d-font-blue-and-pink-neon-light-3d-rendering-letter-a.jpg?b=1&s=170667a&w=0&k=20&c=gguTWbSct8UCe-oExgUwrbo3OSy0IcSlQEwQOE8osJo="
+                class="rounded-circle" height="22" alt="" loading="lazy" />
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/admin/profile">My profile</a></li>
+              <li><a class="dropdown-item" href="/admin/adminlogout">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main style="margin-top: 58px">
+    <div class="container pt-4">
+      <!-- Section: Main chart -->
+
+      <!-- Section: Main chart -->
+
+      <!--Section: Sales Performance KPIs-->
+      <section class="mb-4">
+        <div class="card">
+          <div class="card-header text-center py-3">
+            <h5 class="mb-0 text-center">
+              Add Product Images
+            </h5>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover text-nowrap">
+                <form action="/admin/addproductimage" method="post" enctype="multipart/form-data">
+
+                  <div class="row">
+
+                    <!-- Product Image File  -->
+                    <div class="col-md-6 mb-4">
+                      Upload Product Image 
+                      <div class="form-outline textBox" id = "imgwala">
+                        <div class="form-outline textBox" id = "imgwala">
+                          <input required type="file" id="img" name="img" accept="image/x-png,image/gif,image/jpeg,image/jpg" class="form-control form-control-lg" / oninput="checkfiletype()">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="row">
+                    <div class="d-flex justify-content-center pt-3">
+                      <button type="reset" class="btn btn-light btn-lg">Reset all</button>
+                      <button type="submit" id="submit-btn" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                      <input type="text" name="formbreakerf" id="formbreakerf" required hidden value = "">
+                    </div>
+                  </div>
+                </form>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header text-center py-3">
+            <h5 class="mb-0 text-center">
+              <strong>Products</strong>
+            </h5>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover text-nowrap" id="user-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">Delete Image</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <% data.map((item)=>{ %>
+                    <tr>
+                      <td scope="row"><img class="timg" src="/images/<%=item.img%>" height="50px" width="50px" alt="">
+                      </td>
+                      <td scope="row"><a class="btn btn-danger"
+                          href="/admin/deleteimage?id=<%=item.id%>&name=<%=item.img%>">Delete</a></td>
+                    </tr>
+                    <% }) %>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.print.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <!--Main layout-->
+
+  <script>
+    function checkfiletype(){
+      var fileName = document.getElementById('img').value.toLowerCase();
+      if(!fileName.endsWith('.png') && !fileName.endsWith('.jpg') && !fileName.endsWith('.jpeg')){
+          alert('Please upload Image file only (.png, .jpg, .jpeg).');
+          document.getElementById('img').value = "";
+          
+          document.getElementById('formbreakerf').value = '';
+          document.getElementById('imgwala').style.borderColor = "red";
+      }
+  
+      else{
+        document.getElementById('formbreakerf').value = "ok";
+        document.getElementById('imgwala').style.borderColor = "green";
+      }
+
+    }
+  </script>
+</body>
+
+</html>
