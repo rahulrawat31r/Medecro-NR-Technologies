@@ -2351,7 +2351,8 @@ router.get('/appdetails',(req,res)=>{
 
 router.get('/checkpatients/:token',(req,res)=>{
     if(req.session.adminemail)
-        {
+
+{
             const tokenNum = req.params.tokenNum; 
             res.render('checkPatients',{adminemail:req.session.adminemail});
         }

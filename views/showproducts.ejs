@@ -192,6 +192,7 @@
             <div class="table-responsive">
               <table class="table table-hover text-nowrap">
                 <form action="/admin/addAppointment" method="post">
+                <form action="/admin/addAppointment" method="post">
 
                   <div class="row">
                     <div class="col-md-6 mb-4">
@@ -455,94 +456,6 @@
       
       })
     }
-
-
-    function getDoctorList(e){
-      var speciality = e.value;
-      $.getJSON('/admin/getdoctorS/'+speciality,function(data){
-        if (data.length == 0){
-          alert ('No Doctor Found');
-          return;
-        }
-
-        var doctorName = document.getElementById('doctorName');
-        doctorName.innerHTML = '';
-        for (var i = 0; i < data.length; i++){
-          var option = document.createElement('option');
-          option.value = data[i]['email'];
-          option.text = data[i]['name'];
-          doctorName.appendChild(option);
-        }
-      })
-    }
-
-
-    const today = new Date().toISOString().split('T')[0];
-  
-  // Set the min attribute to today's date
-    document.getElementById('date').setAttribute('min', today);
-
-
-    function getAppointments  (){
-      $.getJSON('/admin/getAppointments',function(data){
-        if (data.length == 0){
-          alert ('No Appointments Found');
-          return;
-        }
-
-        var table = $("#user-table").DataTable();
-
-        table.destroy();
-
-        table = document.getElementById("user-table");
-        table.innerHTML = "";
-        table = document.getElementById("user-table");
-        //   console.log (table.innerHTML);
-
-        table.innerHTML = `<thead class = "table-dark">
-                <tr>
-                  <th scope="col">Token No</th>
-                  <th scope="col">Patient Name</th>
-                  <th scope="col">Patient Contact Number</th>
-                  <th scope="col">Doctor Name</th>
-                  <th scope="col">Speciality</th>
-                  <th scope="col">Patient AADHAR ID</th>
-                  <th scope="col">Medical Condition</th>
-                  <th scope="col">Appointment Date</th>
-                </tr>
-              </thead>
-              <tbody id ="tableWork">
-              
-              </tbody>  `;
-
-        $("#user-table").DataTable({
-          dom: "Bfrtip",
-          buttons: [
-
-          ],
-          responsive: true,
-          data: data,
-          columns: [
-            { data: "token" },
-            { data: "name" },
-            { data: "mobile" },
-            { data: "dname" },
-            { data: "specs" },
-            { data: "aadhar" },
-            { data: "mcondition" },
-            { data: "adate" },
-            
-
-          ],
-
-          order : [[0,'desc']]
-        });
-      })
-    }
-
-
-    getAppointments();
-
   </script>
   <!--Main layout-->
 </body>
