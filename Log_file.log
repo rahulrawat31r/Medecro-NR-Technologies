@@ -1987,3 +1987,35 @@
 {"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/permissiondata | IP -> ::1 | Error Getting Data from DB | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 19:09:10"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:93"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:61"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 19:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:49"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 19:09:98"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:100"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 19:09:61"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:15"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 19:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:93"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 19:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:31"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 19:09:33"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:40"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:07"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 19:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:63"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 19:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:63"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:61"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:09"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:12"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:94"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:41"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> nishikagarg08@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:63"}
