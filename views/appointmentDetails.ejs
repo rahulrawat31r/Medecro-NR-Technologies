@@ -1,0 +1,502 @@
+<html>
+
+</html>
+
+<head>
+  <title>
+    Appointment Details
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Gooogle Auth-->
+
+  <meta name="google-signin-client_id"
+    content="15064425583-h6gqtm6l884069s03jtuvn8v892u1ukj.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+  <link rel='stylesheet' href='/stylesheets/admindashboard.css' />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.3.2/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.html5.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.print.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.2.2/css/buttons.dataTables.min.css">
+  <style>
+    .tohideip {
+      display: none;
+    }
+
+    /* For Display Border on the Input Text box*/
+    .textBox{
+      border : 1px solid rgb(201, 201, 201);
+      border-radius: 5px;
+      
+    }
+
+    .list-group-flush>.list-group-item {
+    border-width: 0 0 1px;
+    background-color: #ff3636;
+    border: 3px solid #ffffff;
+    border-radius: 7px;
+    color: white;
+    font-family: math;
+    }
+  </style>
+
+
+
+  <script src="/javascripts/showproducts2.js"></script>
+
+  
+</head>
+
+<body>
+  <!--Main Navigation-->
+  <header>
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+      <div class="position-sticky">
+        <div class="list-group list-group-flush mx-3 mt-4">
+          <a href="/admin/admindashboard" class="list-group-item list-group-item-action py-2 ripple"
+            aria-current="true">
+            <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
+          </a>
+
+          <a href="/admin/showproducts" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fas fa-users fa-fw me-3"></i><span>Show Products</span></a>
+
+          <a href="/admin/adddoctorAdmin" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-address-card fa-fw me-3"></i><span>Check Doctor</span></a>
+
+          <a href="/admin/adduser" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-group fa-fw me-3"></i><span>Check User</span></a>
+
+          <a href="/admin/loadchemist" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-group fa-fw me-3"></i><span>Check Chemist</span></a>
+
+          <a href="/admin/loadstockist" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-group fa-fw me-3"></i><span>Check Stockist</span></a>
+
+
+          <a href="/admin/approveSchedulePage" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-calendar-check-o fa-fw me-3"></i><span>Approve Schedule</span></a>
+
+          <a href="/admin/fetchSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-calendar fa-fw me-3"></i><span>All User's Schedule</span></a>
+
+          <a href="/admin/getdcr" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-calendar fa-fw me-3"></i><span>Add DCR</span></a>
+
+          <a href="/admin/getproductimage" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-file-image-o fa-fw me-3"></i><span>Product Images</span></a>
+
+
+          <a
+          href="/admin/changepswd"
+          class="list-group-item list-group-item-action py-2 ripple"
+          ><i class="fa fa-fingerprint fa-fw me-3"></i><span>Change Password</span></a
+          >
+
+
+        </div>
+      </div>
+    </nav>
+    <!-- Sidebar -->
+
+    <!-- Navbar -->
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+          aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          NR Technology
+        </a>
+
+        <!-- Right links -->
+        <ul class="navbar-nav ms-auto d-flex flex-row">
+          <!-- Notification dropdown -->
+
+
+          <!-- Icon dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdown" role="button"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              <i class="united kingdom flag m-0"></i>
+            </a>
+          </li>
+          <li class="nav-item" style="display: flex;align-items: center;">
+            <%=adminemail%>
+          </li>
+          <!-- Avatar -->
+          <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
+              id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <img
+                src="https://media.istockphoto.com/id/1250021058/photo/neon-3d-font-blue-and-pink-neon-light-3d-rendering-letter-a.jpg?b=1&s=170667a&w=0&k=20&c=gguTWbSct8UCe-oExgUwrbo3OSy0IcSlQEwQOE8osJo="
+                class="rounded-circle" height="22" alt="" loading="lazy" />
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/admin/profile">My profile</a></li>
+              <li><a class="dropdown-item" href="/admin/adminlogout">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main style="margin-top: 58px">
+    <div class="container pt-4">
+      <!-- Section: Main chart -->
+
+      <!-- Section: Main chart -->
+
+      <!--Section: Sales Performance KPIs-->
+      <section class="mb-4">
+        <div class="card">
+          <!-- <div class="card-header text-center py-3">
+            <h5 class="mb-0 text-center">
+              Register Appointment
+            </h5>
+          </div> -->
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover text-nowrap">
+                <form action="/admin/addproduct" method="post">
+
+                  <div class="row">
+                    <!-- <div class="col-md-6 mb-4">
+                      Patient Contact Number
+                      <div class="form-outline textBox" >
+                        <input type="text" required id="chemistphone" onchange="getPatient(this)" name="mobile" class="form-control form-control-lg" required/
+                        >
+                      </div>
+                    </div> -->
+
+                     <!-- Product Name -->
+                     <!-- <div class="col-md-6 mb-4">
+                      Patient Name
+                      <div class="form-outline textBox">
+                        <input type="text" required id="patientName" name="name"
+                          class="form-control form-control-lg" required/ readonly>
+                      </div>
+                    </div>
+                  </div> -->
+
+
+                  <!-- <div class="row">
+
+                    <div class="col-md-6 mb-4">
+                      Patient Email
+                      <div class="form-outline textBox" >
+                        <input type="text" required id="email" name="email" class="form-control form-control-lg" required/ readonly
+                        >
+                      </div>
+                    </div>
+
+
+                     Chemsit Name-->
+                    
+                    <!-- <div class="col-md-6 mb-4">
+                      Patient AADHAR ID
+                      <div class="form-outline textBox" >
+                        <input type="text" required id="aadhar" name="aadhar" class="form-control form-control-lg" / readonly
+                         value = "">
+                      </div>
+                    </div> -->
+
+                    <!-- Area -->
+                    <!-- <div class="col-md-6 mb-4">
+                      Symptoms
+                      <div class="form-outline textBox">
+                         
+                            <input type="text" required id="darea" name="darea" class="form-control form-control-lg" /
+                               value = "">
+                         
+                        </div>
+                    </div>  -->
+
+
+                    
+                    <div class="col-md-6 mb-4">
+                      Medical Condition
+                      <select class="select form-control" id="" name="workingwith" required>
+                        <!-- <option value disabled selected>Select Patient Condition</option> -->
+                        <option value = "Critical"  >Critical</option>
+                        <option value = "Emergency"  >Emergency</option>
+                        <option value = "Normal"  selected>Normal</option>
+  
+                      </select>
+                    </div>
+                  </div>
+
+
+                   
+
+                  </div>
+                  
+
+
+                
+                  <!--  <div class="row">
+                
+                    <div class="col-md-6 mb-4">
+                      Doctor Speciality
+                            <select class="select form-control" id="dcontact" name="dcontact" onclick="getDoctorList(this)"  required>
+                              <option value="" disabled selected>Select Speciality</option>
+                              <option value="Allergy & Immunology">Allergy & Immunology</option>
+                              <option value="Anesthesiology">Anesthesiology</option>
+                              <option value="Cardiology">Cardiology</option>
+                              <option value="Dermatology">Dermatology</option>
+                              <option value="Emergency Medicine">Emergency Medicine</option>
+                              <option value="Endocrinology">Endocrinology</option>
+                              <option value="Family Medicine">Family Medicine</option>
+                              <option value="Gastroenterology">Gastroenterology</option>
+                              <option value="General Surgery">General Surgery</option>
+                              <option value="Geriatrics">Geriatrics</option>
+                              <option value="Hematology">Hematology</option>
+                              <option value="Infectious Disease">Infectious Disease</option>
+                              <option value="Internal Medicine">Internal Medicine</option>
+                              <option value="Nephrology">Nephrology</option>
+                              <option value="Neurology">Neurology</option>
+                              <option value="Neurosurgery">Neurosurgery</option>
+                              <option value="Obstetrics & Gynecology">Obstetrics & Gynecology</option>
+                              <option value="Oncology">Oncology</option>
+                              <option value="Ophthalmology">Ophthalmology</option>
+                              <option value="Orthopedics">Orthopedics</option>
+                              <option value="Otolaryngology (ENT)">Otolaryngology (ENT)</option>
+                              <option value="Pediatrics">Pediatrics</option>
+                              <option value="Plastic Surgery">Plastic Surgery</option>
+                              <option value="Psychiatry">Psychiatry</option>
+                              <option value="Pulmonology">Pulmonology</option>
+                              <option value="Radiology">Radiology</option>
+                              <option value="Rheumatology">Rheumatology</option>
+                              <option value="Urology">Urology</option>
+                              <option value="Vascular Surgery">Vascular Surgery</option>
+                              <option value="Sports Medicine">Sports Medicine</option>
+                              <option value="Pain Medicine">Pain Medicine</option>
+                              <option value="Palliative Medicine">Palliative Medicine</option>
+                              <option value="Physical Medicine & Rehabilitation">Physical Medicine & Rehabilitation</option>
+                              <option value="Dermatopathology">Dermatopathology</option>
+
+                                
+                              </select>
+                    </div>  -->
+
+
+                    <!-- Doctor Name -->
+                    <!-- <div class="col-md-6 mb-4">
+                      Doctor Name
+                      <div class="form-outline textBox">
+                        <select class="select form-control" id="doctorName" name="doctorName"  required>  
+                          <option value="" selected disabled>Select Speciality</option>                          
+                          </select>
+                      </div>
+                    </div> -->
+<!--                     
+                    <div id="tohideip" class="tohideip">
+                      <input type="text" required id="ip" name="ip" class="form-control form-control-lg" />
+                     
+                    </div> -->
+
+                    <!-- Date of Registration of Product-->
+                    <div class="col-md-6 mb-4">
+                      Appointment Date
+                      <div class="form-outline textBox">
+                        <input type="date" required id="date" name="date" class="form-control form-control-lg" required />
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div class="row">
+
+                  </div>
+
+                  <div class="row">
+                    <div class="d-flex justify-content-center pt-3">
+                      <button type="reset" class="btn btn-light btn-lg">Reset all</button>
+                      <button type="submit" id="submit-btn" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                    </div>
+                  </div>
+                  <!-- Submit Buttons-->
+
+                  <!-- Prevent from submitting with no particular doctor, stockist and chemist -->
+                  <input type="text" name="formblockerd" id="formblockerd" class="tohideip" required value = "">
+                  <input type="text" name="formblockerc" id="formblockerc" class="tohideip" required value = "">
+                  <input type="text" name="formblockers" id="formblockers" class="tohideip" required value = "">
+                </form>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <!-- Table Area -->
+        <div class="card">
+          <div class="card-header text-center py-3">
+            <h5 class="mb-0 text-center">
+              <strong>Appointment Details</strong>
+            </h5>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover text-nowrap" id="user-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Token No</th>
+                    <th scope="col">Patient Name</th>
+                    <th scope="col">Patient Contact Number</th>
+                    <th scope="col">Doctor Name</th>
+                
+                    <th scope="col">Medical Condition</th>
+                    <th scope="col">Action</th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">103</td>
+                    <td scope="row">Rahul Rawat</td>
+                    <td scope="row">9876543210</td>
+                    <td scope="row">Dr. Nishi</td>
+                    <td scope="row">Tamatarlogy</td>
+                    <td><button onclick="calling(103)" type="button" id="submit-btn" class="btn btn-success btn-small ms-2">Call</button></td>
+                 
+                  </tr>
+                  <tr>
+                    <td scope="row">102</td>
+                    <td scope="row">Neha Sharma</td>
+                    <td scope="row">9123456789</td>
+                    <td scope="row">Dr. Priya Sharma</td>
+                    <td scope="row">Cardiology</td>
+                    <td><button type="button" id="submit-btn" class="btn btn-success btn-small ms-2">Call</button></td>
+               
+                  </tr>
+                  <tr>
+                    <td scope="row">101</td>
+                    <td scope="row">Rohan Singh</td>
+                    <td scope="row">9988776655</td>
+                    <td scope="row">Dr. Anil Kumar</td>
+                    <td scope="row">Neurology</td>
+                    <td><button type="button" id="submit-btn" class="btn btn-success btn-small ms-2">Call</button></td>
+             
+                  </tr>
+                
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script>
+
+    /* Table download and other features */
+    $(document).ready(function () {
+      $('#user-table').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+        {
+          extend: "pdfHtml5",
+          orientation: "landscape",
+          pageSize: "A4", // You can also use "A1","A2" or "A3", most of the time "A3" works the best.
+          text: "PDF",
+          titleAttr: "PDF",
+        },
+        "excel",
+        "copy",
+      ],
+      });
+    });
+
+      $('#doctorname').css('border','1px solid red');
+      $('#chemistname').css('border','1px solid red');
+      $('#stockistname').css('border','1px solid red');
+
+
+    /* For Fetching the IP address ofthe admin*/
+    $(document).ready(function () {
+
+      $.getJSON("https://api.ipify.org?format=json", function (data) {
+        $('#ip').val(data.ip)
+      })
+
+    })
+
+  
+
+    function calling(tokenNum){
+        window.location.href =`/admin/checkpatients/${tokenNum}`;
+    }
+  
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.print.min.js"></script>
+
+  <script>
+    
+
+    function getPatient(e){
+      var phone = e.value;
+      $.getJSON('/admin/getpatient/'+phone,function(data){
+        if (data.length == 0){
+          alert ('No Patient Found');
+          return;
+        }
+        document.getElementById('patientName').value = data[0]['name'];
+        document.getElementById('email').value = data[0]['email'];
+        document.getElementById('aadhar').value = data[0]['aadhar'];
+      
+      })
+    }
+  </script>
+  <!--Main layout-->
+</body>
+
+</html>

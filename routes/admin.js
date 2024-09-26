@@ -2307,4 +2307,48 @@ router.get('/getpatient/:phone' , (req,res)=>{
     })
 })
 
+router.get('/appdetails',(req,res)=>{
+    if(req.session.adminemail)
+        {
+            pool.query('select * from admin',function(error,result){
+                if(error)
+                {
+                    console.log (error);
+                    let mes = `| Request -> /admin/appdetails | IP -> ${req.ip} | Error Fetching Data | Admin -> ${req.session.adminemail} |`;
+                    res.redirect('/');
+                    logger.customLogger.log ('error',mes);
+    
+                }
+                else
+                {   //logger.counsellingLogger.log('info',`${req.session.ip} admin ${req.session.adminemail} rendered show users page`)
+                    let mes = `| Request -> /admin/appdetails | IP -> ${req.ip} | Rendered Admin Products Page with Data | Admin -> ${req.session.adminemail} |`;
+                    
+                    res.render('appointmentDetails',{data:result,adminemail:req.session.adminemail})
+                    logger.customLogger.log ('info',mes);
+                }
+            })
+        }
+        else{
+            let mes = `| Request -> /admin/appdetails | IP -> ${req.ip} | Error Rendering Product Page | No Admin Login |`;
+            res.redirect('/')
+    
+            logger.customLogger.log ('warn',mes);
+        }
+    
+})
+
+router.get('/checkpatients/:token',(req,res)=>{
+    if(req.session.adminemail)
+        {
+            const tokenNum = req.params.tokenNum; 
+            res.render('checkPatients',{adminemail:req.session.adminemail});
+        }
+        else{
+            let mes = `| Request -> /admin/appdetails | IP -> ${req.ip} | Error Rendering Product Page | No Admin Login |`;
+            res.redirect('/')
+            logger.customLogger.log ('warn',mes);
+        }
+
+})
+
 module.exports = router;
