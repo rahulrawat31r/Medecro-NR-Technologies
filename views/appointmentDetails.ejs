@@ -193,71 +193,38 @@
           <div class="card-body">
             <div class="table-responsive">
               <table class="table table-hover text-nowrap">
-                <form action="/admin/addproduct" method="post">
+                <form >
 
                   <div class="row">
-                    <!-- <div class="col-md-6 mb-4">
-                      Patient Contact Number
-                      <div class="form-outline textBox" >
-                        <input type="text" required id="chemistphone" onchange="getPatient(this)" name="mobile" class="form-control form-control-lg" required/
-                        >
-                      </div>
-                    </div> -->
-
-                     <!-- Product Name -->
-                     <!-- <div class="col-md-6 mb-4">
-                      Patient Name
-                      <div class="form-outline textBox">
-                        <input type="text" required id="patientName" name="name"
-                          class="form-control form-control-lg" required/ readonly>
-                      </div>
-                    </div>
-                  </div> -->
-
-
-                  <!-- <div class="row">
-
-                    <div class="col-md-6 mb-4">
-                      Patient Email
-                      <div class="form-outline textBox" >
-                        <input type="text" required id="email" name="email" class="form-control form-control-lg" required/ readonly
-                        >
-                      </div>
-                    </div>
-
-
-                     Chemsit Name-->
-                    
-                    <!-- <div class="col-md-6 mb-4">
-                      Patient AADHAR ID
-                      <div class="form-outline textBox" >
-                        <input type="text" required id="aadhar" name="aadhar" class="form-control form-control-lg" / readonly
-                         value = "">
-                      </div>
-                    </div> -->
-
-                    <!-- Area -->
-                    <!-- <div class="col-md-6 mb-4">
-                      Symptoms
-                      <div class="form-outline textBox">
-                         
-                            <input type="text" required id="darea" name="darea" class="form-control form-control-lg" /
-                               value = "">
-                         
-                        </div>
-                    </div>  -->
-
-
                     
                     <div class="col-md-6 mb-4">
                       Medical Condition
-                      <select class="select form-control" id="" name="workingwith" required>
+                      <select class="select form-control" id="condition" name="condition" required>
                         <!-- <option value disabled selected>Select Patient Condition</option> -->
+                        <option value = "All"  >All</option>
                         <option value = "Critical"  >Critical</option>
                         <option value = "Emergency"  >Emergency</option>
                         <option value = "Normal"  selected>Normal</option>
   
                       </select>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                      Select Appointment Type
+                      <select class="select form-control" id="type" name="type" required>
+                        <!-- <option value disabled selected>Select Patient Condition</option> -->
+                        <option value = "No" selected >Pending</option>
+                        <option value = "Yes"  >Completed</option>
+  
+                      </select>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                      Appointment Date
+                      <div class="form-outline textBox">
+                        <input type="date" required id="date" name="date" class="form-control form-control-lg" required />
+                      </div>
+
                     </div>
                   </div>
 
@@ -266,79 +233,6 @@
 
                   </div>
                   
-
-
-                
-                  <!--  <div class="row">
-                
-                    <div class="col-md-6 mb-4">
-                      Doctor Speciality
-                            <select class="select form-control" id="dcontact" name="dcontact" onclick="getDoctorList(this)"  required>
-                              <option value="" disabled selected>Select Speciality</option>
-                              <option value="Allergy & Immunology">Allergy & Immunology</option>
-                              <option value="Anesthesiology">Anesthesiology</option>
-                              <option value="Cardiology">Cardiology</option>
-                              <option value="Dermatology">Dermatology</option>
-                              <option value="Emergency Medicine">Emergency Medicine</option>
-                              <option value="Endocrinology">Endocrinology</option>
-                              <option value="Family Medicine">Family Medicine</option>
-                              <option value="Gastroenterology">Gastroenterology</option>
-                              <option value="General Surgery">General Surgery</option>
-                              <option value="Geriatrics">Geriatrics</option>
-                              <option value="Hematology">Hematology</option>
-                              <option value="Infectious Disease">Infectious Disease</option>
-                              <option value="Internal Medicine">Internal Medicine</option>
-                              <option value="Nephrology">Nephrology</option>
-                              <option value="Neurology">Neurology</option>
-                              <option value="Neurosurgery">Neurosurgery</option>
-                              <option value="Obstetrics & Gynecology">Obstetrics & Gynecology</option>
-                              <option value="Oncology">Oncology</option>
-                              <option value="Ophthalmology">Ophthalmology</option>
-                              <option value="Orthopedics">Orthopedics</option>
-                              <option value="Otolaryngology (ENT)">Otolaryngology (ENT)</option>
-                              <option value="Pediatrics">Pediatrics</option>
-                              <option value="Plastic Surgery">Plastic Surgery</option>
-                              <option value="Psychiatry">Psychiatry</option>
-                              <option value="Pulmonology">Pulmonology</option>
-                              <option value="Radiology">Radiology</option>
-                              <option value="Rheumatology">Rheumatology</option>
-                              <option value="Urology">Urology</option>
-                              <option value="Vascular Surgery">Vascular Surgery</option>
-                              <option value="Sports Medicine">Sports Medicine</option>
-                              <option value="Pain Medicine">Pain Medicine</option>
-                              <option value="Palliative Medicine">Palliative Medicine</option>
-                              <option value="Physical Medicine & Rehabilitation">Physical Medicine & Rehabilitation</option>
-                              <option value="Dermatopathology">Dermatopathology</option>
-
-                                
-                              </select>
-                    </div>  -->
-
-
-                    <!-- Doctor Name -->
-                    <!-- <div class="col-md-6 mb-4">
-                      Doctor Name
-                      <div class="form-outline textBox">
-                        <select class="select form-control" id="doctorName" name="doctorName"  required>  
-                          <option value="" selected disabled>Select Speciality</option>                          
-                          </select>
-                      </div>
-                    </div> -->
-<!--                     
-                    <div id="tohideip" class="tohideip">
-                      <input type="text" required id="ip" name="ip" class="form-control form-control-lg" />
-                     
-                    </div> -->
-
-                    <!-- Date of Registration of Product-->
-                    <div class="col-md-6 mb-4">
-                      Appointment Date
-                      <div class="form-outline textBox">
-                        <input type="date" required id="date" name="date" class="form-control form-control-lg" required />
-                      </div>
-
-                    </div>
-
                   </div>
                   <div class="row">
 
@@ -347,15 +241,11 @@
                   <div class="row">
                     <div class="d-flex justify-content-center pt-3">
                       <button type="reset" class="btn btn-light btn-lg">Reset all</button>
-                      <button type="submit" id="submit-btn" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                      <button type="button" id="submit-btn" class="btn btn-warning btn-lg ms-2" onclick="getAppointmentsDoc()">Submit form</button>
                     </div>
                   </div>
                   <!-- Submit Buttons-->
 
-                  <!-- Prevent from submitting with no particular doctor, stockist and chemist -->
-                  <input type="text" name="formblockerd" id="formblockerd" class="tohideip" required value = "">
-                  <input type="text" name="formblockerc" id="formblockerc" class="tohideip" required value = "">
-                  <input type="text" name="formblockers" id="formblockers" class="tohideip" required value = "">
                 </form>
               </table>
             </div>
@@ -382,41 +272,15 @@
                     <th scope="col">Patient Name</th>
                     <th scope="col">Patient Contact Number</th>
                     <th scope="col">Doctor Name</th>
-                
                     <th scope="col">Medical Condition</th>
+                    <th scope="col">Appointment Date</th>
+                    <th scope="col">Appointment Completed</th>
                     <th scope="col">Action</th>
                     
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td scope="row">103</td>
-                    <td scope="row">Rahul Rawat</td>
-                    <td scope="row">9876543210</td>
-                    <td scope="row">Dr. Nishi</td>
-                    <td scope="row">Tamatarlogy</td>
-                    <td><button onclick="calling(103)" type="button" id="submit-btn" class="btn btn-success btn-small ms-2">Call</button></td>
-                 
-                  </tr>
-                  <tr>
-                    <td scope="row">102</td>
-                    <td scope="row">Neha Sharma</td>
-                    <td scope="row">9123456789</td>
-                    <td scope="row">Dr. Priya Sharma</td>
-                    <td scope="row">Cardiology</td>
-                    <td><button type="button" id="submit-btn" class="btn btn-success btn-small ms-2">Call</button></td>
-               
-                  </tr>
-                  <tr>
-                    <td scope="row">101</td>
-                    <td scope="row">Rohan Singh</td>
-                    <td scope="row">9988776655</td>
-                    <td scope="row">Dr. Anil Kumar</td>
-                    <td scope="row">Neurology</td>
-                    <td><button type="button" id="submit-btn" class="btn btn-success btn-small ms-2">Call</button></td>
-             
-                  </tr>
-                
+                  
                   
                 </tbody>
               </table>
@@ -466,6 +330,81 @@
 
     function calling(tokenNum){
         window.location.href =`/admin/checkpatients/${tokenNum}`;
+    }
+
+    function getAppointmentsDoc(){
+      const condition = document.getElementById('condition').value;
+      const date = document.getElementById('date').value;
+      const type = document.getElementById('type').value;
+
+      $.getJSON(`/admin/getAppointmentsDoc/${condition}/${date}/${type}`,function(data){
+        console.log(data);
+
+        if (data.length == 0){
+          alert ('No Appointments Found');
+          return;
+        }
+
+        var table = $("#user-table").DataTable();
+
+        table.destroy();
+
+        table = document.getElementById("user-table");
+        table.innerHTML = "";
+        table = document.getElementById("user-table");
+        //   console.log (table.innerHTML);
+
+        for (i = 0 ; i < data.length ; i++){
+          if (data[i]['visit'] == 'No'){
+              data[i]['button'] = `<button onclick="calling(${data[i].token})" type="button" id="submit-btn" class="btn btn-success btn-small ms-2">Call</button>`;
+            }
+            
+            else{
+              data[i]['button'] = `<button type="button" id="submit-btn" class="btn btn-primary btn-small ms-2">Completed</button>`;
+          }
+        }
+
+        table.innerHTML = `<thead class = "table-dark">
+                <tr>
+                  <th scope="col">Token No</th>
+                    <th scope="col">Patient Name</th>
+                    <th scope="col">Patient Contact Number</th>
+                    <th scope="col">Doctor Name</th>
+                    <th scope="col">Medical Condition</th>
+                    <th scope="col">Appointment Date</th>
+                    <th scope="col">Appointment Completed</th>
+                    <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody id ="tableWork">
+              
+              </tbody>  `;
+
+        $("#user-table").DataTable({
+          dom: "Bfrtip",
+          buttons: [
+
+          ],
+          responsive: true,
+          data: data,
+          columns: [
+            { data: "token" },
+            { data: "name" },
+            { data: "mobile" },
+            { data: "dname" },
+            { data: "mcondition" },
+            { data: "adate" },
+            { data: "visit" },
+            { data: "button" },
+            
+
+          ],
+
+          order : [[0,'asc']]
+        });
+      })
+        
+   
     }
   
   </script>
