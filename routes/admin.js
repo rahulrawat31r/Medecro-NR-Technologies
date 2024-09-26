@@ -52,7 +52,7 @@ router.get('/adminlogin',function(req,res){
 
 router.post('/checkadmin',function(req,res){
    
-    pool.query('select * from admin where email=?',[req.body.adminemail],function(error,result){
+    pool.query('select * from doctor where email=?',[req.body.adminemail],function(error,result){
         if(error)
         {   
             console.log (error);
@@ -74,7 +74,8 @@ router.post('/checkadmin',function(req,res){
                 if(result.length==1 && pswd==req.body.adminpassword)
                     {
                         req.session.adminemail = result[0].email;  
-                        req.session.photu = result[0].image;
+                        req.session.photu = "logo.jpeg"
+                        req.session.type = result[0].type;
 
                         let mes = `| Request -> /admin/checkadmin | IP -> ${req.ip} | Admin Logged In | Admin -> ${req.session.adminemail} |`;
                         res.redirect('/admin/admindashboard');
@@ -2376,6 +2377,48 @@ router.get('/getAppointments' , (req,res)=> {
             res.send (obj);
         }
     })
+})
+
+
+/* Getting the appoitments for the doctor */
+
+router.get('/getAppointmentsDoc/:condition/:date/:type' , (req,res)=>{
+    if (req.session.type == "Doctor"){
+
+        let query = 'select a.* , d.name as dname from appointment a, doctor d where d.email = a.doctor and a.doctor = ? and a.visit =? and a.adate = ?';
+        if (req.params.condition != "All"){
+            query = 'select a.* , d.name as dname from appointment a, doctor d where d.email = a.doctor and a.doctor = ? and a.visit = ? and a.adate = ? and a.mcondition = ?';
+        }
+
+        pool.query (query , [req.session.adminemail, req.params.type, req.params.date , req.params.condition] , (err,obj)=> {
+            if (err){
+                console.log (err);
+                res.send ([]);
+            }
+    
+            else{
+                res.send (obj);
+            }
+        })
+    }
+
+    else{
+        let query = 'select a.* , d.name as dname from appointment a, doctor d where d.email = a.doctor and a.visit = ? and a.adate = ?';
+        if (req.params.condition != "All"){
+            query = 'select a.* , d.name as dname from appointment a, doctor d where d.email = a.doctor and a.visit = ? and a.adate = ? and a.mcondition = ?';
+        }
+
+        pool.query (query , [req.params.type, req.params.date , req.params.condition] , (err,obj)=> {
+            if (err){
+                console.log (err);
+                res.send ([]);
+            }
+    
+            else{
+                res.send (obj);
+            }
+        })
+    }
 })
 
 module.exports = router;

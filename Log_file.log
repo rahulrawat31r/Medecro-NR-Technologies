@@ -1875,3 +1875,45 @@
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 13:09:80"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 13:09:83"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 13:09:81"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/showproducts | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 15:09:93"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 15:09:94"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 15:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 15:09:12"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 15:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 15:09:65"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 15:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 15:09:31"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 15:09:56"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:94"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:56"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:71"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 15:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-26 15:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:50"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:56"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 15:09:16"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-26 16:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 16:09:64"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Not Found | Email Was -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 16:09:65"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Not Found | Email Was -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:69"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 16:09:71"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Invalid Login Credentials | Admin Email -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:57"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 16:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:82"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 16:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 16:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:29"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:55"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 16:09:70"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 16:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:43"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 16:09:42"}
