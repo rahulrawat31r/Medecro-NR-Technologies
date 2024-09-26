@@ -32,11 +32,11 @@ var mysql = require("mysql2");
 var pool = mysql.createPool({
   host: process.env.MYSQLHOST ||  "localhost",
   port: process.env.MYSQLPORT || 3306,
-  user: process.env.MYSQLUSER || "rahul",
-  password:process.env.MYSQLPASSWORD || "kake",
-  database:process.env.MYSQLDATABASE || "medecro",
-  connectionLimit: 100,
+  user: process.env.MYSQLUSER || "nishika",
+  password:process.env.MYSQLPASSWORD || "hello",
+  database:process.env.MYSQLDATABASE || "medecro2",
+  connectionLimit: 9000,
 });
-   
+
 
 module.exports = pool;
