@@ -368,12 +368,12 @@ router.get('/getcorrectdoctor',(req,res)=>{
 
 
 /* ADding the products FROM showproducts.ejs */
-router.post('/addproduct',function(req,res){
+router.post('/addAppointment',function(req,res){
     
     if(req.session.adminemail)
     {
         const text = req.body;
-        if ((!text.workingwith ) || (!text.doctorname ) || (!text.employeename)){
+        if (0){
 
             let mes = `| Request -> /admin/addproduct | IP -> ${req.ip} | Empty Fields in Form | Admin -> ${req.session.adminemail} |`;
             res.redirect('/admin/showproducts');
@@ -381,19 +381,15 @@ router.post('/addproduct',function(req,res){
         }
 
         else{
-            pool.query('insert into product (doctorname,productname,chemistname,stockistname,date,employeename,workingwith,adder,ip,dcontact,stockistphone,chemistphone) values(?,?,?,?,?,?,?,?,?,?,?,?)',[
-                req.body.doctorname,
-                req.body.productname,
-                req.body.chemistname,
-                req.body.stockistname,
-                req.body.date.toString(),
-                req.body.employeename,
-                req.body.workingwith,
-                "admin",
-                req.body.ip,
-                req.body.dcontact,
-                req.body.stockistphone,
-                req.body.chemistphone
+            pool.query('INSERT INTO `appointment`( `mobile`, `email`, `name`, `aadhar`, `symptoms`, `mcondition`, `doctor`, `adate`) VALUES (?,?,?,?,?,?,?,?)',[
+                req.body.mobile,
+                req.body.email,
+                req.body.name,
+                req.body.aadhar,
+                req.body.symptoms,
+                req.body.condition,
+                req.body.doctor,
+                req.body.date
             ],function(error,result){
               if(error)
               {
@@ -406,39 +402,39 @@ router.post('/addproduct',function(req,res){
               else
               {  
              
-                pool.query("SELECT * FROM `users` WHERE email = ?",[req.body.employeename],(err,obj)=>{
-                    if(err)
-                    {
-                        console.log (err);
 
-                        let mes = `| Request -> /admin/addproduct | IP -> ${req.ip} | Error in DB | Admin -> ${req.session.adminemail} |`;
-                        res.redirect('/')
-                        logger.customLogger.log ('error',mes);
-                    }
+                let message = `Congratulations  `+ text.name + `  !!
+                        Your Appointment has been Created !
+                        
+                        Token Number : ` + result.insertId + `
+                        Date : ` + text.date + `
+                        Doctor : ` + text.doctor + `
+                        Condition : ` + text.condition + `
 
-                    else{
-                        let num = parseInt(obj[0].productnum);
-                        num++;
-    
-                        pool.query ("UPDATE `users` SET productnum = ? WHERE email = ?",[num,req.body.employeename],(err2,obj2)=>{
-                            if(error)
-                            {
-                                console.log (err2);
-
-                                let mes = `| Request -> /admin/addproduct | IP -> ${req.ip} | Error in DB | Admin -> ${req.session.adminemail} |`;
-                                res.redirect('/')
-                                logger.customLogger.log ('error',mes);
+                        NR Technologies`;
+                                   
+                                        
+                        var mailOptions = {
+                            from: 'rahulrawat31r@gmail.com',
+                            to: text.email,
+                            subject: "Admin Account Created !",
+                            text : message
+                        };
+                        
+                        transporter.sendMail(mailOptions, function(error, info){
+                            if (error) {
+                            console.log(error);
+                            } else {
+                            console.log('Email sent ');
                             }
                         });
+                
 
-                        let mes = `| Request -> /admin/addproduct | IP -> ${req.ip} | Product Registered  | Admin -> ${req.session.adminemail} |`;
-                        
-                        res.redirect('/admin/showproducts')
-                        logger.customLogger.log ('info',mes);
+                let mes = `| Request -> /admin/addproduct | IP -> ${req.ip} | Product Registered  | Admin -> ${req.session.adminemail} |`;
+                
+                res.redirect('/admin/showproducts')
+                logger.customLogger.log ('info',mes);
 
-                    }
-
-                })
               }
             });
 
@@ -2277,6 +2273,21 @@ router.get('/getdoctors',(req,res)=> {
     })
 })
 
+/* Getting teh doctor with the particular speciality */
+
+router.get('/getdoctorS/:speciality',(req,res)=> {
+    pool.query ('select d.name, d.email from doctor d where d.speciality = ?' , [req.params.speciality] , (err,obj)=> {
+        if (err){
+            console.log (err);
+            res.send ([]);
+        }
+
+        else{
+            res.send (obj);
+        }
+    })
+})
+
 /* Getting the patients */
 
 router.get('/fetchPatients' , (req,res)=>{
@@ -2296,6 +2307,22 @@ router.get('/fetchPatients' , (req,res)=>{
 
 router.get('/getpatient/:phone' , (req,res)=>{
     pool.query ('select * from patients where mob = ?' , [req.params.phone] , (err,obj)=> {
+        if (err){
+            console.log (err);
+            res.send ([]);
+        }
+
+        else{
+            res.send (obj);
+        }
+    })
+})
+
+
+/* Getting the appointments */
+
+router.get('/getAppointments' , (req,res)=> {
+    pool.query ('select a.* , d.name as dname, d.speciality as specs from appointment a, doctor d where d.email = a.doctor' , (err,obj)=> {
         if (err){
             console.log (err);
             res.send ([]);
