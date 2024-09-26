@@ -2001,3 +2001,8 @@
 {"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/permissiondata | IP -> ::1 | Error Getting Data from DB | Admin -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-26 19:09:10"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:93"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:61"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendering Deined |No Admin Login  | ","metadata":{},"timestamp":"24-09-26 19:09:03"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 19:09:79"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:68"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:69"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:22"}

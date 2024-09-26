@@ -2354,7 +2354,18 @@ router.get('/checkpatients/:token',(req,res)=>{
 
 {
             const tokenNum = req.params.tokenNum; 
-            res.render('checkPatients',{adminemail:req.session.adminemail});
+
+            pool.query ('select * from appointment where token = ?' , [req.params.token] , (err,obj)=> {
+                if (err){
+                    console.log (err);
+                    res.send ([]);
+                }
+        
+                else{
+                    res.render('checkPatients',{adminemail:req.session.adminemail , pname : obj[0].name , mcond : obj[0].mcondition , symptoms : obj[0].symptoms});
+                }
+            })
+
         }
         else{
             let mes = `| Request -> /admin/appdetails | IP -> ${req.ip} | Error Rendering Product Page | No Admin Login |`;
