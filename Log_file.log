@@ -1872,3 +1872,6 @@
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 12:09:01"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminregistrations | IP -> ::1 | Rendered the admin registrations page | Admin Registrations | ","metadata":{},"timestamp":"24-09-26 12:09:09"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 12:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 13:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 13:09:83"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-26 13:09:81"}
