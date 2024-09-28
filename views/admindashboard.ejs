@@ -62,35 +62,28 @@
           <a href="/admin/showproducts" class="list-group-item list-group-item-action py-2 ripple"><i
               class="fas fa-users fa-fw me-3"></i><span>Appointments</span></a>
 
+          <a href="/admin/appdetails" class="list-group-item list-group-item-action py-2 ripple"><i
+            class="fa fa-group fa-fw me-3"></i><span >Visits</span></a>
+
           <a href="/admin/adddoctorAdmin" class="list-group-item list-group-item-action py-2 ripple"><i
               class="fa fa-address-card fa-fw me-3"></i><span>Manage Doctors</span></a>
 
           <a href="/admin/adduser" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-group fa-fw me-3"></i><span> Patients Registration </span></a>
+              class="fa fa-group fa-fw me-3"></i><span> Patients Reg. </span></a>
 
-          <a href="/admin/loadchemist" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-group fa-fw me-3"></i><span >EmergencyPatients</span></a>
-
-          <a href="/admin/loadstockist" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-group fa-fw me-3"></i><span >Critical Patients</span></a>
-
-              
 
           <a href="/admin/approveSchedulePage" class="list-group-item list-group-item-action py-2 ripple"><i
               class="fa fa-calendar-check-o fa-fw me-3"></i><span>Lab Reports</span></a>
 
           <a href="/admin/fetchSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
               class="fa fa-calendar fa-fw me-3"></i><span>Billing History</span></a>
-          <a href="/admin/getdcr" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-calendar fa-fw me-3"></i><span>All Applications</span></a>
-
+         
           <a href="/admin/getproductimage" class="list-group-item list-group-item-action py-2 ripple"><i
               class="fa fa-file-image-o fa-fw me-3"></i><span>Medication Stock</span></a>
 
               <a href="/admin/changepswd" class="list-group-item list-group-item-action py-2 ripple"><i class="fa fa-fingerprint fa-fw me-3"></i><span>Patient Verification</span></a>
 
-              <a href="/admin/appdetails" class="list-group-item list-group-item-action py-2 ripple"><i
-                class="fa fa-group fa-fw me-3"></i><span >Appointment details</span></a>
+            
 
 
         </div>
@@ -135,7 +128,7 @@
             <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
               id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
               <img
-                src="/images/<%=image%>"
+                src="https://mdbootstrap.com/img/new/avatars/2.jpg"
                 class="rounded-circle" height="22" alt="" loading="lazy" />
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
@@ -169,7 +162,7 @@
                       <i class="fa-solid fa-book text-info fa-3x"></i>
                     </div>
                     <div class="text-end">
-                      <h3 id="total-products">3900</h3>
+                      <h3 id="total-products"><%=total%></h3>
                       <p class="mb-0">Total Appointments</p>
                     </div>
                   </div>
@@ -186,7 +179,7 @@
                       <i class="fa-solid fa-graduation-cap fa-3x"></i>
                     </div>
                     <div class="text-end">
-                      <h3 id="Registered-Doctors">70</h3>
+                      <h3 id="Registered-Doctors"><%=doctor%></h3>
                       <p class="mb-0">Registered Doctors</p>
                     </div>
                   </div>
@@ -203,7 +196,7 @@
                       <i class="fa-solid fa-book-open-reader text-warning fa-3x"></i>
                     </div>
                     <div class="text-end">
-                      <h3 id="total-users">600</h3>
+                      <h3 id="total-users"><%=completed%></h3>
                       <p class="mb-0">Appointments Completed</p>
                     </div>
                   </div>
@@ -240,7 +233,7 @@
                 <div class="card-body">
                   <div class="d-flex justify-content-between px-md-1">
                     <div>
-                      <h3 class="text-success" id="permission-granted">3300</h3>
+                      <h3 class="text-success" id="permission-granted"><%=pending%></h3>
                       <p class="mb-0">Pending Appointments</p>
                     </div>
                     <div class="align-self-center">
@@ -257,7 +250,7 @@
                 <div class="card-body">
                   <div class="d-flex justify-content-between px-md-1">
                     <div>
-                      <h3 class="text-danger" id="pending-approval">46</h3>
+                      <h3 class="text-danger" id="pending-approval"><%=emergency%></h3>
                       <p class="mb-0">Emergency Patients</p>
                     </div>
                     <div class="align-self-center">
@@ -274,7 +267,7 @@
                 <div class="card-body">
                   <div class="d-flex justify-content-between px-md-1">
                     <div>
-                      <h3 class="text-danger" id="pending-approval">8</h3>
+                      <h3 class="text-danger" id="pending-approval"><%=critical%></h3>
                       <p class="mb-0">Critical Patients</p>
                     </div>
                     <div class="align-self-center">
@@ -291,7 +284,7 @@
                 <div class="card-body">
                   <div class="d-flex justify-content-between px-md-1">
                     <div>
-                      <h3 class="text-success" id="approved-approval">73</h3>
+                      <h3 class="text-success" id="approved-approval"><%=report%></h3>
                       <p class="mb-0">Reports</p>
                     </div>
                     <div class="align-self-center">

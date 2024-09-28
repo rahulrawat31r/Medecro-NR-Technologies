@@ -2,7 +2,7 @@
 
 <head>
   <title>
-    Products
+    Appointments
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--Gooogle Auth-->
@@ -34,14 +34,12 @@
 
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.2.2/css/buttons.dataTables.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
   <style>
-
-    /* Hiding IP block */
     .tohideip {
       display: none;
     }
@@ -53,13 +51,21 @@
       
     }
 
+    .list-group-flush>.list-group-item {
+    border-width: 0 0 1px;
+    background-color: #ff3636;
+    border: 3px solid #ffffff;
+    border-radius: 7px;
+    color: white;
+    font-family: math;
+    }
   </style>
 
-  
+
+
   <script src="/javascripts/showproducts2.js"></script>
 
-
-
+  
 </head>
 
 <body>
@@ -74,19 +80,14 @@
           </a>
 
           <a href="/showproducts" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-users fa-fw me-3"></i><span>Show Products</span></a>
-
-          <a href="/createSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-calendar fa-fw me-3"></i><span>Create Schedule</span></a>
-
-          <a href="/getSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-calendar-check-o fa-fw me-3"></i><span>Get Schedule</span></a>
+              class="fas fa-users fa-fw me-3"></i><span>Register Appoint.</span></a>
 
           <a href="/getdcr" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-calendar-check-o fa-fw me-3"></i><span>ADD DCR</span></a>
+              class="fas fa-calendar-check-o fa-fw me-3"></i><span>View Appoint.</span></a>
 
               <a href="/changePswd" class="list-group-item list-group-item-action py-2 ripple"><i
                 class="fas fa-fingerprint fa-fw me-3"></i><span>Change Password</span></a>
+
 
 
         </div>
@@ -106,7 +107,7 @@
 
         <!-- Brand -->
         <a class="navbar-brand" href="#">
-          User
+          NR Technology
         </a>
 
         <!-- Right links -->
@@ -122,7 +123,7 @@
             </a>
           </li>
           <li class="nav-item" style="display: flex;align-items: center;">
-            <%=adminemail%>
+            <%=email%>
           </li>
           <!-- Avatar -->
           <li class="nav-item dropdown">
@@ -130,12 +131,12 @@
             <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
               id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
               <img
-                src="https://media.istockphoto.com/id/1231978424/vector/bended-line-letter-logotype-u.jpg?s=612x612&w=0&k=20&c=SPItVL93FBxNVSxtJdUOoSTQ7uekxeMZ1qXwE2-Oi8M="
+                src="https://media.istockphoto.com/id/1250021058/photo/neon-3d-font-blue-and-pink-neon-light-3d-rendering-letter-a.jpg?b=1&s=170667a&w=0&k=20&c=gguTWbSct8UCe-oExgUwrbo3OSy0IcSlQEwQOE8osJo="
                 class="rounded-circle" height="22" alt="" loading="lazy" />
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="/getprofile">My profile</a></li>
-              <li><a class="dropdown-item" href="/logout">Logout</a></li>
+              <li><a class="dropdown-item" href="/admin/profile">My profile</a></li>
+              <li><a class="dropdown-item" href="/admin/adminlogout">Logout</a></li>
             </ul>
           </li>
         </ul>
@@ -158,227 +159,219 @@
         <div class="card">
           <div class="card-header text-center py-3">
             <h5 class="mb-0 text-center">
-              Add Products
+              Register Appointment
             </h5>
           </div>
           <div class="card-body">
             <div class="table-responsive">
               <table class="table table-hover text-nowrap">
-                <form action="/addproduct" method="post">
+               
+                <form action="/addAppointment" method="post">
+
                   <div class="row">
+                    <div class="col-md-6 mb-4">
+                      Patient Contact Number
+                      <div class="form-outline textBox" >
+                        <input type="text" required id="chemistphone" readonly value="<%=data['mob']%>" name="mobile" class="form-control form-control-lg" required/
+                        >
+                      </div>
+                    </div>
+
+                     <!-- Product Name -->
+                     <div class="col-md-6 mb-4">
+                      Patient Name
+                      <div class="form-outline textBox">
+                        <input type="text" required id="patientName" value="<%=data['name']%>" name="name"
+                          class="form-control form-control-lg" required/ readonly>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="row">
+
+                    <!-- Chemist Number-->
+                    <div class="col-md-6 mb-4">
+                      Patient Email
+                      <div class="form-outline textBox" >
+                        <input type="text" required id="email" name="email" value="<%=data['email']%>" class="form-control form-control-lg" required/ readonly
+                        >
+                      </div>
+                    </div>
+
+
+                    <!-- Chemsit Name-->
+                    
+                    <div class="col-md-6 mb-4">
+                      Patient AADHAR ID
+                      <div class="form-outline textBox" >
+                        <input type="text" required id="aadhar" name="aadhar" value="<%=data['aadhar']%>" class="form-control form-control-lg" / readonly
+                         value = "">
+                      </div>
+                    </div>
+
+                    <!-- Area -->
+                    <div class="col-md-6 mb-4">
+                      Symptoms
+                      <div class="form-outline textBox">
+                         
+                            <input type="text" required id="darea" name="symptoms" class="form-control form-control-lg" /
+                               value = "">
+                         
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="col-md-6 mb-4">
+                      Medical Condition
+                      <select class="select form-control" id="" name="condition" required>
+                        <!-- <option value disabled selected>Select Patient Condition</option> -->
+                        <option value = "Critical"  >Critical</option>
+                        <option value = "Emergency"  >Emergency</option>
+                        <option value = "Normal"  selected>Normal</option>
+  
+                      </select>
+                    </div>
+                  </div>
+
+
                    
 
-                    <div class="row">
+                  </div>
+                  
 
-                      <!-- Getting Doctor Contact-->
-                      <div class="col-md-6 mb-4">
-                        Doctor Contact
-                        <div class="form-outline textBox" >
-                          <input type="text" required id="dcontact" name="dcontact" class="form-control form-control-lg" /
-                          oninput="areafiller()" >
-                        </div>
+
+                
+                  <div class="row">
+                    <!-- Doctor Contact -->
+                    <div class="col-md-6 mb-4">
+                      Doctor Speciality
+                            <select class="select form-control" id="dcontact" name="speciality" onchange="getDoctorList(this)"  required>
+                              <option value="" disabled selected>Select Speciality</option>
+                              <option value="Allergy & Immunology">Allergy & Immunology</option>
+                              <option value="Anesthesiology">Anesthesiology</option>
+                              <option value="Cardiology">Cardiology</option>
+                              <option value="Dermatology">Dermatology</option>
+                              <option value="Emergency Medicine">Emergency Medicine</option>
+                              <option value="Endocrinology">Endocrinology</option>
+                              <option value="Family Medicine">Family Medicine</option>
+                              <option value="Gastroenterology">Gastroenterology</option>
+                              <option value="General Surgery">General Surgery</option>
+                              <option value="Geriatrics">Geriatrics</option>
+                              <option value="Hematology">Hematology</option>
+                              <option value="Infectious Disease">Infectious Disease</option>
+                              <option value="Internal Medicine">Internal Medicine</option>
+                              <option value="Nephrology">Nephrology</option>
+                              <option value="Neurology">Neurology</option>
+                              <option value="Neurosurgery">Neurosurgery</option>
+                              <option value="Obstetrics & Gynecology">Obstetrics & Gynecology</option>
+                              <option value="Oncology">Oncology</option>
+                              <option value="Ophthalmology">Ophthalmology</option>
+                              <option value="Orthopedics">Orthopedics</option>
+                              <option value="Otolaryngology (ENT)">Otolaryngology (ENT)</option>
+                              <option value="Pediatrics">Pediatrics</option>
+                              <option value="Plastic Surgery">Plastic Surgery</option>
+                              <option value="Psychiatry">Psychiatry</option>
+                              <option value="Pulmonology">Pulmonology</option>
+                              <option value="Radiology">Radiology</option>
+                              <option value="Rheumatology">Rheumatology</option>
+                              <option value="Urology">Urology</option>
+                              <option value="Vascular Surgery">Vascular Surgery</option>
+                              <option value="Sports Medicine">Sports Medicine</option>
+                              <option value="Pain Medicine">Pain Medicine</option>
+                              <option value="Palliative Medicine">Palliative Medicine</option>
+                              <option value="Physical Medicine & Rehabilitation">Physical Medicine & Rehabilitation</option>
+                              <option value="Dermatopathology">Dermatopathology</option>
+
+                                
+                              </select>
+                    </div>
+
+
+                    <!-- Doctor Name -->
+                    <div class="col-md-6 mb-4">
+                      Doctor Name
+                      <div class="form-outline textBox">
+                        <select class="select form-control" id="doctorName" name="doctor"  required>  
+                          <option value="" selected disabled>Select Speciality</option>                          
+                          </select>
                       </div>
+                    </div>
+                    
+                    <div id="tohideip" class="tohideip">
+                      <input type="text" required id="ip" name="ip" class="form-control form-control-lg" />
+                     
+                    </div>
 
-                      <!-- Getting Doctor Name -->
-                      <div class="col-md-6 mb-4">
-                        Doctor Name
-                        <div class="form-outline textBox">
-                          <input type="text" required id="doctorname" name="doctorname" class="form-control form-control-lg" /
-                            readonly value="Enter Contact Number !">
-                        </div>
-                      </div>
-
-                      <!-- Getting Doctor Area-->
-                      <div class="col-md-6 mb-4">
-                        Doctor Area
-                        <div class="form-outline textBox">
-                         
-                            <input type="text" required id="darea" name="darea" class="form-control form-control-lg" /
-                              readonly value = "Enter Contact Number !">
-                         
-                        </div>
-                      </div>
-
-                      <!-- Product Name-->
-                      <div class="col-md-6 mb-4">
-                        Product Name
-                        <div class="form-outline textBox">
-                          <input type="text" required id="productname" name="productname"
-                            class="form-control form-control-lg" />
-                          
-                        </div>
-                      </div>
-
-                      <div class="row"></div>
-
-                      <!-- Chemist Number-->
-                      <div class="col-md-6 mb-4">
-                        Chemist Contact Number
-                        <div class="form-outline textBox" >
-                          <input type="text" required id="chemistphone" name="chemistphone" class="form-control form-control-lg" /
-                          oninput="contactfillerChemist()" >
-                        </div>
-                      </div>
-
-
-                      <!-- Chemsit Name-->
-                      
-                      <div class="col-md-6 mb-4">
-                        Chemist Name
-                        <div class="form-outline textBox" >
-                          <input type="text" required id="chemistname" name="chemistname" class="form-control form-control-lg" /
-                          readonly value = "Enter Contact Number !">
-                        </div>
+                    <!-- Date of Registration of Product-->
+                    <div class="col-md-6 mb-4">
+                      Appointment Date
+                      <div class="form-outline textBox">
+                        <input type="date" required id="date" name="date" class="form-control form-control-lg" required />
                       </div>
 
                     </div>
 
-                    <div class="row">
+                  </div>
+                  <div class="row">
 
-                      <!-- Stockist Phone-->
-                      <div class="col-md-6 mb-4">
-                        Stockist Contact Number
-                        <div class="form-outline textBox" >
-                          <input type="text" required id="stockistphone" name="stockistphone" class="form-control form-control-lg" /
-                          oninput="contactfillerStockist()" >
-                        </div>
-                      </div>
+                  </div>
 
-                      <!-- Stockist Name-->
-                      <div class="col-md-6 mb-4">
-                        Stockist Name
-                        <div class="form-outline textBox" >
-                          <input type="text" required id="stockistname" name="stockistname" class="form-control form-control-lg" /
-                          readonly value = "Enter Contact Number !">
-                        </div>
-
-                        <!-- Hidden Ip Storing Block-->
-                      </div>
-                      
-                      <div id="tohideip" class="tohideip">
-                        <input type="text" required id="ip" name="ip" class="form-control form-control-lg" />
-                       
-                      </div>
-
-                      <!-- Date of Registration of Product-->
-                      <div class="col-md-6 mb-4">
-                        Date
-                        <div class="form-outline textBox">
-                          <input type="date" required id="date" name="date" class="form-control form-control-lg" />
-                        </div>
-
-                      </div>
-
+                  <div class="row">
+                    <div class="d-flex justify-content-center pt-3">
+                      <button type="reset" class="btn btn-light btn-lg">Reset all</button>
+                      <button type="submit" id="submit-btn" class="btn btn-warning btn-lg ms-2">Submit form</button>
                     </div>
-                    <div class="row">
+                  </div>
+                  <!-- Submit Buttons-->
 
-                      <!-- User Email-->
-                      <div class="col-md-6 mb-4">
-                        Employee Email
-                        <div class="form-outline textBox" >
-                          <input type="text" required id="employeename" name="employeename"
-                            class="form-control form-control-lg" readonly value=<%=username %>>
-                        </div>
-                      </div>
-
-                      <!-- Working Under-->
-                      <div class="col-md-6 mb-4">
-                        Working Under
-                        <select class="select form-control" id="workingwith" name="workingwith" required>
-                          <option value="" disabled selected>Working With</option>
-
-                        </select>
-                      </div>
-                    </div>
-
-                    <!-- Submit Buttons-->
-                    <div class="row">
-                      <div class="d-flex justify-content-center pt-3">
-                        <button type="reset" class="btn btn-light btn-lg">Reset all</button>
-                        <button type="submit" id="submit-btn" class="btn btn-warning btn-lg ms-2">Submit form</button>
-                      </div>
-                    </div>
-
-                    <!-- Prevent from submitting with no particular doctor, stockist and chemist -->
-                    <input type="text" name="formblockerd" id="formblockerd" class="tohideip" required value = "">
-                    <input type="text" name="formblockerc" id="formblockerc" class="tohideip" required value = "">
-                    <input type="text" name="formblockers" id="formblockers" class="tohideip" required value = "">
-
+                 
                 </form>
               </table>
             </div>
           </div>
         </div>
 
-        <!-- Data Section-->
+        <!-- Table Area -->
         <div class="card">
           <div class="card-header text-center py-3">
             <h5 class="mb-0 text-center">
-              <strong>Products</strong>
+              <strong>Appointments</strong>
             </h5>
           </div>
-
           <div class="card-body">
             <div class="table-responsive">
               <table class="table table-hover text-nowrap" id="user-table">
                 <thead>
                   <tr>
+                    <th scope="col">Token No</th>
+                    <th scope="col">Patient Name</th>
+                    <th scope="col">Patient Contact Number</th>
                     <th scope="col">Doctor Name</th>
-                    <th scope="col">Product Name</th>
-                    <th scope="col">Chemist Name</th>
-                    <th scope="col">Stockist Name</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Employee Email</th>
-                    <th scope="col">Working With</th>
-                    <th scope="col">Action</th>
+                    <th scope="col">Speciality</th>
+                    <th scope="col">Patient AADHAR ID</th>
+                    <th scope="col">Medical Condition</th>
+                    <th scope="col">Appointment Date</th> 
+                    <th scope="col">Appointment Completed</th> 
+                    
                   </tr>
                 </thead>
                 <tbody>
-                  <!-- Table Data -->
-
-                  <% data.map((item)=>{ %>
-                    <tr>
-                      <td scope="row">
-                        <%=item.doctorname%>
-                      </td>
-                      <td scope="row">
-                        <%=item.productname%>
-                      </td>
-                      <td scope="row">
-                        <%=item.chemistname%>
-                      </td>
-                      <td scope="row">
-                        <%=item.stockistname%>
-                      </td>
-                      <td scope="row">
-                        <%=item.date%>
-                      </td>
-                      <td scope="row">
-                        <%=item.employeename%>
-                      </td>
-                      <td scope="row">
-                        <%=item.workingwith%>
-                      </td>
-
-                      <!-- Delete Button -->
-                      <td scope="row"><a class="btn btn-danger"
-                          href="/deleteproduct?productid=<%=item.productid%>&adder=<%=adminemail%>">Delete</a></td>
-                    </tr>
-                    <% }) %>
+                  
                 </tbody>
               </table>
             </div>
           </div>
         </div>
       </section>
+
     </div>
   </main>
 
-  <!--Main layout-->
-
   <script>
 
-    // Api for downloading the data from the table
+    /* Table download and other features */
     $(document).ready(function () {
       $('#user-table').DataTable({
         dom: 'Bfrtip',
@@ -394,38 +387,24 @@
         "copy",
       ],
       });
-
-
+    });
 
       $('#doctorname').css('border','1px solid red');
       $('#chemistname').css('border','1px solid red');
       $('#stockistname').css('border','1px solid red');
 
-      /* For Getting the IP Address of the User */
+
+    /* For Fetching the IP address ofthe admin*/
     $(document).ready(function () {
 
       $.getJSON("https://api.ipify.org?format=json", function (data) {
         $('#ip').val(data.ip)
-
       })
 
-      })
-    });
-
-    $(document).ready(function () {
-
-
-    /*For Getting the Admin Names */
-    $.getJSON('/getworkingwith', function (data) {
-        $('#workingwith').empty()
-        $('#workingwith').append($('<option value selected disabled>').text('Select Working With'))
-        data.map((item) => {
-            $('#workingwith').append($('<option>').text(item.name).val(item.name))
-        })
     })
 
-
-    })
+  
+  
   </script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -436,7 +415,98 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.print.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+
+  <script>
+    
+
+    function getPatient(e){
+      var phone = e.value;
+      $.getJSON('/admin/getpatient/'+phone,function(data){
+        if (data.length == 0){
+          alert ('No Patient Found');
+          return;
+        }
+        document.getElementById('patientName').value = data[0]['name'];
+        document.getElementById('email').value = data[0]['email'];
+        document.getElementById('aadhar').value = data[0]['aadhar'];
+      
+      })
+    }
+
+    function getDoctorList(e){
+      var speciality = e.value;
+      $.getJSON('/admin/getdoctorS/'+speciality,function(data){
+        if (data.length == 0){
+          alert ('No Doctor Found');
+          return;
+        }
+        var doctorName = document.getElementById('doctorName');
+        doctorName.innerHTML = '';
+        for (var i = 0; i < data.length; i++){
+          var option = document.createElement('option');
+          option.value = data[i]['email'];
+          option.text = data[i]['name'];
+          doctorName.appendChild(option);
+        }
+      })
+    }
+    const today = new Date().toISOString().split('T')[0];
+  
+  // Set the min attribute to today's date
+    document.getElementById('date').setAttribute('min', today);
+    function getAppointments  (){
+      $.getJSON('/admin/getAppointments',function(data){
+        if (data.length == 0){
+          alert ('No Appointments Found');
+          return;
+        }
+        var table = $("#user-table").DataTable();
+        table.destroy();
+        table = document.getElementById("user-table");
+        table.innerHTML = "";
+        table = document.getElementById("user-table");
+        //   console.log (table.innerHTML);
+        table.innerHTML = `<thead class = "table-dark">
+                <tr>
+                  <th scope="col">Token No</th>
+                  <th scope="col">Patient Name</th>
+                  <th scope="col">Patient Contact Number</th>
+                  <th scope="col">Doctor Name</th>
+                  <th scope="col">Speciality</th>
+                  <th scope="col">Patient AADHAR ID</th>
+                  <th scope="col">Medical Condition</th>
+                  <th scope="col">Appointment Date</th> 
+                  <th scope="col">Appointment Completed</th> 
+                </tr>
+              </thead>
+              <tbody id ="tableWork">
+              
+              </tbody>  `;
+        $("#user-table").DataTable({
+          dom: "Bfrtip",
+          buttons: [
+          ],
+          responsive: true,
+          data: data,
+          columns: [
+            { data: "token" },
+            { data: "name" },
+            { data: "mobile" },
+            { data: "dname" },
+            { data: "specs" },
+            { data: "aadhar" },
+            { data: "mcondition" },
+            { data: "adate" },
+            { data: "visit" },
+            
+          ],
+          order : [[0,'desc']]
+        });
+      })
+    }
+    getAppointments();
+  </script>
+  <!--Main layout-->
 </body>
 
 </html>

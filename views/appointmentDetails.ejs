@@ -83,39 +83,30 @@
           </a>
 
           <a href="/admin/showproducts" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-users fa-fw me-3"></i><span>Show Products</span></a>
+              class="fas fa-users fa-fw me-3"></i><span>Appointments</span></a>
+
+          <a href="/admin/appdetails" class="list-group-item list-group-item-action py-2 ripple"><i
+            class="fa fa-group fa-fw me-3"></i><span >Visits</span></a>
 
           <a href="/admin/adddoctorAdmin" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-address-card fa-fw me-3"></i><span>Check Doctor</span></a>
+              class="fa fa-address-card fa-fw me-3"></i><span>Manage Doctors</span></a>
 
           <a href="/admin/adduser" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-group fa-fw me-3"></i><span>Check User</span></a>
-
-          <a href="/admin/loadchemist" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-group fa-fw me-3"></i><span>Check Chemist</span></a>
-
-          <a href="/admin/loadstockist" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-group fa-fw me-3"></i><span>Check Stockist</span></a>
+              class="fa fa-group fa-fw me-3"></i><span> Patients Reg. </span></a>
 
 
           <a href="/admin/approveSchedulePage" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-calendar-check-o fa-fw me-3"></i><span>Approve Schedule</span></a>
+              class="fa fa-calendar-check-o fa-fw me-3"></i><span>Lab Reports</span></a>
 
           <a href="/admin/fetchSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-calendar fa-fw me-3"></i><span>All User's Schedule</span></a>
-
-          <a href="/admin/getdcr" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-calendar fa-fw me-3"></i><span>Add DCR</span></a>
-
+              class="fa fa-calendar fa-fw me-3"></i><span>Billing History</span></a>
+         
           <a href="/admin/getproductimage" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-file-image-o fa-fw me-3"></i><span>Product Images</span></a>
+              class="fa fa-file-image-o fa-fw me-3"></i><span>Medication Stock</span></a>
 
+              <a href="/admin/changepswd" class="list-group-item list-group-item-action py-2 ripple"><i class="fa fa-fingerprint fa-fw me-3"></i><span>Patient Verification</span></a>
 
-          <a
-          href="/admin/changepswd"
-          class="list-group-item list-group-item-action py-2 ripple"
-          ><i class="fa fa-fingerprint fa-fw me-3"></i><span>Change Password</span></a
-          >
+            
 
 
         </div>
@@ -135,8 +126,9 @@
 
         <!-- Brand -->
         <a class="navbar-brand" href="#">
-          NR Technology
+          Admin
         </a>
+
 
         <!-- Right links -->
         <ul class="navbar-nav ms-auto d-flex flex-row">
@@ -159,7 +151,7 @@
             <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
               id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
               <img
-                src="https://media.istockphoto.com/id/1250021058/photo/neon-3d-font-blue-and-pink-neon-light-3d-rendering-letter-a.jpg?b=1&s=170667a&w=0&k=20&c=gguTWbSct8UCe-oExgUwrbo3OSy0IcSlQEwQOE8osJo="
+                src="https://mdbootstrap.com/img/new/avatars/2.jpg"
                 class="rounded-circle" height="22" alt="" loading="lazy" />
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
@@ -293,6 +285,9 @@
   </main>
 
   <script>
+
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('date').value = today;
 
     /* Table download and other features */
     $(document).ready(function () {

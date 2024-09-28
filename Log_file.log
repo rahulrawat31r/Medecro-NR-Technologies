@@ -2006,3 +2006,896 @@
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:68"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:69"}
 {"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 19:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 20:09:81"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Data from Database |","metadata":{},"timestamp":"24-09-26 20:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 20:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:63"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:80"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 20:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 20:09:46"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:14"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 20:09:34"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 20:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:98"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:82"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Registered  | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:40"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Registered  | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:04"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:27"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 20:09:99"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 20:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:48"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:50"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:37"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 20:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 20:09:84"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:37"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:17"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 20:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 20:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:29"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 20:09:93"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-26 21:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 21:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 21:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 21:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 21:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 21:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 22:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 22:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 22:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 22:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:39"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 23:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 23:09:99"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 23:09:100"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:84"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:50"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:48"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:91"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:35"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:48"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:71"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:85"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:100"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:61"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:94"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:70"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:08"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:85"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:12"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:29"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:51"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduserfrom | IP -> ::1 | User undefined Added | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:19"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:92"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:61"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:71"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:82"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:93"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:91"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:05"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:29"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:46"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:13"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:29"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:92"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 23:09:40"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-26 23:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-26 23:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-26 23:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 23:09:47"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 23:09:48"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 23:09:69"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 23:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-26 23:09:91"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 11:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:21"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 11:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:15"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:39"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:79"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:79"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 11:09:93"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Registered  | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:03"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:05"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:24"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:85"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 11:09:76"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminregistrations | IP -> ::1 | Rendered the admin registrations page | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:69"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:86"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminregistrations | IP -> ::1 | Rendered the admin registrations page | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:55"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:39"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:71"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:05"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:19"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:33"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:48"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:08"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:71"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:03"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:40"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:63"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:69"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminregistrations | IP -> ::1 | Rendered the admin registrations page | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:33"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:85"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:19"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:51"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:98"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:33"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:46"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:68"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:37"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:84"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:100"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:29"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:39"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:55"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:88"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminregistrations | IP -> ::1 | Rendered the admin registrations page | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:21"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:83"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 11:09:82"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addadminform | IP -> ::1 | Admin Added to the DB | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 11:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 11:09:47"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:34"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:58"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-27 11:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 11:09:32"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:82"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:63"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:47"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:40"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:20"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:43"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 11:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 11:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:98"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:85"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 11:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 11:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 11:09:59"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered Denied | NO User Login | ","metadata":{},"timestamp":"24-09-27 11:09:84"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 11:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 11:09:32"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 11:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:13"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 11:09:02"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /showproducts | IP -> ::1 | User product page denied | No user login | ","metadata":{},"timestamp":"24-09-27 11:09:04"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 11:09:71"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 11:09:37"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 11:09:39"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /showproducts | IP -> ::1 | User product page denied | No user login | ","metadata":{},"timestamp":"24-09-27 11:09:70"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 11:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 11:09:51"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /showproducts | IP -> ::1 | User product page denied | No user login | ","metadata":{},"timestamp":"24-09-27 12:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 12:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:67"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Not Registered  | No Admin Login |","metadata":{},"timestamp":"24-09-27 12:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:28"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Not Registered  | No Admin Login |","metadata":{},"timestamp":"24-09-27 12:09:57"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:43"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Registered  | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:61"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-27 12:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:86"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getSchedule | IP -> ::1 | User Scheduling Page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getSchedule | IP -> ::1 | User Scheduling Page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:32"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changepswd | IP -> ::1 | Change user pswd page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:29"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:100"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendering denied | No User login | ","metadata":{},"timestamp":"24-09-27 12:09:43"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:84"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:86"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:62"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendering denied | No User login | ","metadata":{},"timestamp":"24-09-27 12:09:87"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:29"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:32"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendering denied | No User login | ","metadata":{},"timestamp":"24-09-27 12:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:92"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:94"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:62"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getdcr | IP -> ::ffff:127.0.0.1 | User DCR page rendering denied | No User login | ","metadata":{},"timestamp":"24-09-27 12:09:92"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::ffff:127.0.0.1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:85"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::ffff:127.0.0.1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:86"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:47"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /viewReport | IP -> ::1 | Report View Denied | No Admin Login |","metadata":{},"timestamp":"24-09-27 12:09:41"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:76"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:93"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /viewReport | IP -> ::1 | Report View Denied | No Admin Login |","metadata":{},"timestamp":"24-09-27 12:09:85"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:91"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:88"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:61"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:63"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:10"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /viewReport | IP -> ::1 | Report View Denied | No Admin Login |","metadata":{},"timestamp":"24-09-27 12:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 12:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:91"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 12:09:82"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:68"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:50"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:52"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:66"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-27 12:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 12:09:92"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 12:09:09"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /getMedicalReports | IP -> ::1 | Medical Reports Denied | No Admin Login |","metadata":{},"timestamp":"24-09-27 12:09:62"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-27 13:09:05"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 13:09:46"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:23"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /viewReport | IP -> ::1 | Report View Denied | No Admin Login |","metadata":{},"timestamp":"24-09-27 13:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 13:09:00"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:88"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:70"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-27 13:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 13:09:99"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:75"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /viewReport | IP -> ::1 | Report View Denied | No Admin Login |","metadata":{},"timestamp":"24-09-27 13:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:34"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:40"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:31"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:72"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 13:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 13:09:05"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changepswd | IP -> ::1 | Change user pswd page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:55"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:69"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changepswd | IP -> ::1 | Change user pswd page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:70"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /checkPswd | IP -> ::1 | Error Getting data from db | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:47"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /changePswdForm | IP -> ::1 | User Password changing denied | No User Login | ","metadata":{},"timestamp":"24-09-27 13:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 13:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changepswd | IP -> ::1 | Change user pswd page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:97"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /checkPswd | IP -> ::1 | Error Getting data from db | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:06"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /changePswdForm | IP -> ::1 | User Password changing denied | No User Login | ","metadata":{},"timestamp":"24-09-27 13:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 13:09:31"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:32"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changepswd | IP -> ::1 | Change user pswd page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:31"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /checkPswd | IP -> ::1 | Error Getting data from db | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:48"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changePswdForm | IP -> ::1 | User Password Changed | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changepswd | IP -> ::1 | Change user pswd page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:48"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> / | IP -> ::1 | User Logout | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 13:09:84"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:86"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-27 13:09:76"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 13:09:15"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/appdetails | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-27 13:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 13:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:29"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:87"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> undefined |","metadata":{},"timestamp":"24-09-27 13:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 13:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:83"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:66"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkPswd | IP -> ::1 | Error Getting Data from DB | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:68"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page Denied | NO Admin Login | ","metadata":{},"timestamp":"24-09-27 13:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 13:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:72"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:84"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkPswd | IP -> ::1 | Error Getting Data from DB | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:14"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/changePswdForm | IP -> ::1 | Admin Password Change Denied | No Admin Login | ","metadata":{},"timestamp":"24-09-27 13:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 13:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:53"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkPswd | IP -> ::1 | Error Getting Data from DB | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:33"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/changePswdForm | IP -> ::1 | Admin Password Change Denied | No Admin Login | ","metadata":{},"timestamp":"24-09-27 13:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 13:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:86"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:04"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkPswd | IP -> ::1 | Error Getting Data from DB | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:39"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changePswdForm | IP -> ::1 | Admin Password Changed | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:03"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:56"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 13:09:60"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Invalid Login Credentials | Admin Email -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:63"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 13:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:88"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 13:09:88"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:78"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/checkPswd | IP -> ::1 | Error Getting Data from DB | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:82"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changePswdForm | IP -> ::1 | Admin Password Changed | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 13:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 16:09:34"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:93"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:03"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/showproducts | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-27 16:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 16:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:93"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 16:09:50"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:99"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:11"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:15"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:70"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:94"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:34"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:19"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:79"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:76"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:15"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:93"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:31"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:35"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 16:09:21"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 16:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 16:09:15"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 16:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 16:09:32"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:50"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 16:09:74"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-27 16:09:83"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 16:09:62"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /showproducts | IP -> ::1 | User product page denied | No user login | ","metadata":{},"timestamp":"24-09-27 17:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 17:09:93"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:99"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:46"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/showproducts | IP -> ::1 | Error Rendering Product Page | No Admin Login |","metadata":{},"timestamp":"24-09-27 17:09:19"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 17:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:33"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:35"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:51"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:31"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:91"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:05"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:11"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:13"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduserfrom | IP -> ::1 | User undefined Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:26"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetching Denied | No Admin Login | ","metadata":{},"timestamp":"24-09-27 17:09:12"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 17:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:08"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:09"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:86"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:85"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:98"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduserfrom | IP -> ::1 | User undefined Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:69"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:71"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:41"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:11"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:33"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:100"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:47"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:69"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:87"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:13"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:20"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:51"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:56"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:68"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduserfrom | IP -> ::1 | User undefined Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:55"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Rahul Rawat Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:15"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:79"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:48"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:93"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 17:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 17:09:43"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 17:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 17:09:91"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:85"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:00"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 17:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 17:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 17:09:05"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 17:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 17:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 17:09:72"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:70"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 17:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> / | IP -> ::1 | User Logout | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 17:09:86"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-27 17:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 17:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:40"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:41"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 17:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:71"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 17:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:46"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 18:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 18:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 18:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:06"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 18:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 18:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 18:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 18:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:20"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:83"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 18:09:32"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 18:09:31"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 18:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 20:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 20:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 20:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 20:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 20:09:47"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 20:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 20:09:27"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-27 20:09:03"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 20:09:12"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 20:09:63"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 20:09:09"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 20:09:09"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 20:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 20:09:30"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-27 20:09:94"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 20:09:47"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 20:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 20:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-27 20:09:63"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> / | IP -> ::1 | User Logout | User -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-27 20:09:69"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 20:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 20:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 20:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 20:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 20:09:79"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 20:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:72"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:44"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:87"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:45"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:64"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:39"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:55"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Registered  | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:56"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:39"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:24"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:40"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:98"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:79"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:37"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminregistrations | IP -> ::1 | Rendered the admin registrations page | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 21:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadminmail | IP -> ::1 | Admin Check performed | Admin Registrations | ","metadata":{},"timestamp":"24-09-27 21:09:23"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addadminform | IP -> ::1 | Admin Added to the DB | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:24"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Amit Shrivastava Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:33"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:35"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Sourav Gupta Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Abhishek Chouhan Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:36"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Anand Sharma Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:41"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Jaydeep Kumar Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:43"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:46"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Praveen Mangal Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:29"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Abhishek Sharma Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:74"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Akash Modi Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:15"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Vijay Garg Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Doctor Rituraj Sharma Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:79"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:92"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:50"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:37"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:00"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:12"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:21"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:37"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:89"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:99"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:05"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:83"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:19"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:34"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:65"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:71"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:94"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:11"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:24"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:34"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduserfrom | IP -> ::1 | User undefined Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:40"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:32"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:91"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:00"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:05"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:41"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:82"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:99"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:52"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:67"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:03"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:87"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:09"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:90"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:12"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:22"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:31"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkUser | IP -> ::1 | User Existence Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:35"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduserfrom | IP -> ::1 | User undefined Added | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:25"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:19"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:91"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:08"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Registered  | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:100"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:87"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Registered  | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:99"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:43"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Registered  | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:47"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:48"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:46"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:84"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 21:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:03"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:35"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> gargnishu55@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:23"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-27 21:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:46"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:01"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> / | IP -> ::1 | User Logout | User -> gargnishu55@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:72"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 21:09:32"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:63"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/approveSchedulePage | IP -> ::1 | Rendered Schedule Approval Page | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:85"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /admin/getpendingRequests | IP -> ::1 | Error Getting Data from dB | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 21:09:63"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:50"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:43"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:91"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:76"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:21"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 21:09:55"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:21"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:05"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 21:09:57"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 23:09:11"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:14"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:88"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:41"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adddoctorAdmin | IP -> ::1 | Admin Doctor Page Rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:77"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:35"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:13"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/changepswd | IP -> ::1 | Admin password change page rendered | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:38"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogout | IP -> ::1 | Admin Logged Out | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:20"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 23:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 23:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:79"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered Denied | NO User Login | ","metadata":{},"timestamp":"24-09-27 23:09:99"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 23:09:35"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 23:09:47"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-27 23:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:50"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:21"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:84"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changepswd | IP -> ::1 | Change user pswd page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:62"}
+{"label":"[ LOGS ]","level":"error","message":"| Request -> /checkPswd | IP -> ::1 | Error Getting data from db | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:31"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changePswdForm | IP -> ::1 | User Password Changed | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changepswd | IP -> ::1 | Change user pswd page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:43"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:26"}
+{"label":"[ LOGS ]","level":"warn","message":"| Request -> /admin/checkadmin | IP -> ::1 | Error Fetching Dashboard | No Admin Login |","metadata":{},"timestamp":"24-09-27 23:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:82"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:86"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:70"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:68"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:34"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:59"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:18"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:96"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:87"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:88"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /changepswd | IP -> ::1 | Change user pswd page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:10"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:09"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 23:09:03"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 23:09:80"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 23:09:73"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:24"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> / | IP -> ::1 | User Logout | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-27 23:09:54"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-27 23:09:28"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:81"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:26"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 23:09:88"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 23:09:34"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 23:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 23:09:97"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 23:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 23:09:03"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-27 23:09:17"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-27 23:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-28 13:09:30"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Logged In | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-28 13:09:60"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-28 13:09:61"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /checkuser | IP -> ::1 | Checked user for login | User Logging | ","metadata":{},"timestamp":"24-09-28 13:09:49"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:52"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:41"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:34"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-28 13:09:70"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-28 13:09:58"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-28 13:09:53"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-28 13:09:71"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:78"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adminlogin | IP -> ::1 | Admin Login Page Rendered |","metadata":{},"timestamp":"24-09-28 13:09:79"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:52"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-28 13:09:20"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-28 13:09:62"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:42"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:86"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-28 13:09:51"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-28 13:09:66"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:95"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:07"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-28 13:09:75"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/adduser | IP -> ::1 | Users Data Fetched | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/permissiondata | IP -> ::1 | User Permission Checked | Admin -> rahulrupal95@gmail.com | ","metadata":{},"timestamp":"24-09-28 13:09:27"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-28 13:09:16"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/addproduct | IP -> ::1 | Product Registered  | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-28 14:09:94"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/showproducts | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-28 14:09:99"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-28 14:09:56"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/appdetails | IP -> ::1 | Rendered Admin Products Page with Data | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-28 14:09:33"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /admin/checkadmin | IP -> ::1 | Admin Dashboard Page | Admin -> rahulrupal95@gmail.com |","metadata":{},"timestamp":"24-09-28 14:09:02"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getdcr | IP -> ::1 | User DCR page rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 14:09:21"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getAppointments | IP -> ::1 | Getting Appointments | Admin -> rahulrawat31r@gmail.com |","metadata":{},"timestamp":"24-09-28 14:09:20"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /getMedicalReports | IP -> ::1 | Getting Medical Reports |","metadata":{},"timestamp":"24-09-28 14:09:76"}
+{"label":"[ LOGS ]","level":"info","message":"| Request -> /showdashboard | IP -> ::1 | User Dashboard Rendered | User -> rahulrawat31r@gmail.com | ","metadata":{},"timestamp":"24-09-28 14:09:38"}

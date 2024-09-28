@@ -2,7 +2,7 @@
 
 <head>
   <title>
-    Appointments
+    View Past Report
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--Gooogle Auth-->
@@ -61,7 +61,6 @@
     font-family: math;
     }
 
-    
     .modal {
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
@@ -195,30 +194,39 @@
           </a>
 
           <a href="/admin/showproducts" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-users fa-fw me-3"></i><span>Appointments</span></a>
-
-          <a href="/admin/appdetails" class="list-group-item list-group-item-action py-2 ripple"><i
-            class="fa fa-group fa-fw me-3"></i><span >Visits</span></a>
+              class="fas fa-users fa-fw me-3"></i><span>Show Products</span></a>
 
           <a href="/admin/adddoctorAdmin" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-address-card fa-fw me-3"></i><span>Manage Doctors</span></a>
+              class="fa fa-address-card fa-fw me-3"></i><span>Check Doctor</span></a>
 
           <a href="/admin/adduser" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-group fa-fw me-3"></i><span> Patients Reg. </span></a>
+              class="fa fa-group fa-fw me-3"></i><span>Check User</span></a>
+
+          <a href="/admin/loadchemist" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-group fa-fw me-3"></i><span>Check Chemist</span></a>
+
+          <a href="/admin/loadstockist" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-group fa-fw me-3"></i><span>Check Stockist</span></a>
 
 
           <a href="/admin/approveSchedulePage" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-calendar-check-o fa-fw me-3"></i><span>Lab Reports</span></a>
+              class="fa fa-calendar-check-o fa-fw me-3"></i><span>Approve Schedule</span></a>
 
           <a href="/admin/fetchSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-calendar fa-fw me-3"></i><span>Billing History</span></a>
-         
+              class="fa fa-calendar fa-fw me-3"></i><span>All User's Schedule</span></a>
+
+          <a href="/admin/getdcr" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fa fa-calendar fa-fw me-3"></i><span>Add DCR</span></a>
+
           <a href="/admin/getproductimage" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fa fa-file-image-o fa-fw me-3"></i><span>Medication Stock</span></a>
+              class="fa fa-file-image-o fa-fw me-3"></i><span>Product Images</span></a>
 
-              <a href="/admin/changepswd" class="list-group-item list-group-item-action py-2 ripple"><i class="fa fa-fingerprint fa-fw me-3"></i><span>Patient Verification</span></a>
 
-            
+          <a
+          href="/admin/changepswd"
+          class="list-group-item list-group-item-action py-2 ripple"
+          ><i class="fa fa-fingerprint fa-fw me-3"></i><span>Change Password</span></a
+          >
 
 
         </div>
@@ -312,7 +320,7 @@
   <!-- Center Textarea -->
 
   <div class="center">
-      <textarea placeholder="Enter your text here..." readonly style="background-color: #e1f1ff; font-family: monospace;  height: 173px; border: 1px solid #000000; box-shadow: 1px 3px 9px rgb(66 64 64);"><%=symptoms%></textarea>
+      <textarea placeholder="Enter your text here..." readonly><%=symptoms%></textarea>
   </div>
 
   <!-- Right Side Image -->
@@ -321,37 +329,8 @@
   </div>
 </div>
 </div>
+  
 
-<div class="card mb-4">
-  <div class="card-header text-center py-3">
-    <h5 class="mb-0 text-center">
-      <strong>Patient's Details</strong>
-    </h5>
-  </div>
-  <div class="card-body">
-    <div class="table-responsive">
-      <table class="table table-hover text-nowrap" id="user-table">
-        <thead style="background-color: black; color:  white;">
-          <tr>
-            <th scope="col">Token No.</th>
-            <th scope="col">Patient Name</th>
-            <th scope="col">Doctor Referred</th>
-            <th scope="col">Doctor's Speciality</th>
-            <th scope="col">Medical Condition</th>
-            <th scope="col">Appointment Date</th>
-            <th scope="col">Fetch Report</th>          
-          </tr>
-          </thead>
-     
-        <tbody>
-
-          
-          
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
 
 <div class="card">
   <div class="card-header text-center py-3">
@@ -361,7 +340,7 @@
   </div>
   <div class="card-body">
     <div class="table-responsive">
-      <table class="table table-hover text-nowrap" id="user-table2">
+      <table class="table table-hover text-nowrap" id="user-table">
         <thead>
           <tr>
             <th scope="col">Token No</th>
@@ -379,25 +358,6 @@
     </div>
   </div>
 </div>
-
-<div class="card">
-  <div class="card-header text-center py-3">
-    <h5 class="mb-0 text-center">
-      <strong>Appointment Status</strong>
-    </h5>
-    
-    </div>
-  </div>
-
-
-  <div class="row"> 
-    <div class="col-md-12" style="display: flex; align-items: center; justify-content: center;">
-    <button class="btn btn-success btn-small ms-1" onclick="window.location.href =`/admin/updatePatient/Yes/<%=token%>`;">COMPLETED</button>
-    <button class="btn btn-danger btn-small ms-1" onclick="window.location.href =`/admin/updatePatient/No/<%=token%>`;">DECLINED</button>
-    </div>
-
- 
-  </div>
 
 
   <div id="viewerModal" class="modal" onclick="outsideClick(event)">
@@ -434,155 +394,6 @@
 
 
   <script>
-    const token = document.getElementById('token_id').value ;
-
-    function updateBg (){
-      const condn = document.getElementById('cond').innerText;
-
-      if (condn == 'Normal'){
-        document.getElementById('condnCard').style.backgroundColor = 'green';
-      } else if (condn == 'Critical'){
-        document.getElementById('condnCard').style.backgroundColor = 'yellow';
-      } else {
-        document.getElementById('condnCard').style.backgroundColor = 'red';
-      }
-    }
-
-    updateBg();
-
-
-    /* Getting the patients past records */
-
-    function getPastRecords (){
-      $.ajax({
-        url: '/admin/getpastrecords/' + token,
-        data: {
-          token: token
-        },
-        success: function (data){
-          if (data.length == 0){
-            alert ('No Past Records Found');
-            return;
-          }
-
-          for (i = 0 ; i < data.length ; i++){
-            data[i].button = `<button type="button" class="btn btn-success btn-small ms-1" onclick="getReport('${data[i].token}')">View Report</button>`;
-          }
-
-          $(document).ready(function () {
-              var table = $("#user-table").DataTable();
-
-              table.destroy();
-
-              table = document.getElementById("user-table");
-              table.innerHTML = "";
-              table = document.getElementById("user-table");
-              //   console.log (table.innerHTML);
-
-              table.innerHTML = `<thead class = "table-dark">
-                      <tr>
-                         <th scope="col">Token No.</th>
-                         <th scope="col">Patient Name</th>
-                        <th scope="col">Doctor Referred</th>
-                        <th scope="col">Doctor's Speciality</th>
-                        <th scope="col">Medical Condition</th>
-                        <th scope="col">Appointment Date</th>
-                        <th scope="col">Fetch Report</th>       
-                      </tr>
-                    </thead>
-                    <tbody id ="tableWork">
-                    
-                    </tbody>  `;
-
-              $("#user-table").DataTable({
-                dom: "Bfrtip",
-                buttons: [
-
-                ],
-                responsive: true,
-                data: data,
-                columns: [
-                  { data: "token" },
-                  { data: "name" },
-                  { data: "dname" },
-                  { data: "dspeciality" },
-                  { data: "mcondition" },
-                  { data: "adate" },
-                  { data: "button" }
-                  
-            
-                ],
-
-                order : [[0,'desc']]
-              });
-      })
-
-        }
-      })
-    }
-
-    getPastRecords();
-
-
-    
-    function addMedicalReports (){
-        const token = document.getElementById('token_id').value;
-        $.ajax({
-            url: '/getMedicalReports',
-            type: 'POST',
-            data: {'token' : token},
-            success: function (data) {
-
-                for (i = 0 ; i < data.length ; i++){
-                    data[i]['file'] = `<button class="btn btn-primary" onclick="viewReport('${data[i]['files']}' , '${data[i]['description']}')">View Report</button>`;
-                }
-
-                var table = $("#user-table2").DataTable();
-                table.destroy();
-                table = document.getElementById("user-table2");
-                table.innerHTML = "";
-                table = document.getElementById("user-table2");
-                //   console.log (table.innerHTML);
-                table.innerHTML = `<thead class = "table-dark">
-                <tr>
-                    <th scope="col">Token No</th>
-                    <th scope="col">Description</th>
-                    <th scope="col">View Report</th>
-                </tr>
-              </thead>
-              <tbody id ="tableWork">
-              
-              </tbody>  `;
-                $("#user-table2").DataTable({
-                dom: "Bfrtip",
-                buttons: [
-                ],
-                responsive: true,
-                data: data,
-                columns: [
-                    { data: "token" },
-                    { data: "description" },
-                    { data: "file" }
-                    
-                ],
-                order : [[0,'desc']]
-                });
-            }
-        });
-    }
-
-    addMedicalReports();
-
-    function getReport (token){
-      const button = document.createElement('a');
-      button.target = "_blank";
-      button.href = `/admin/viewReport/${token}`;
-      button.click();
-    }
-
-
-    
-
     function openModal() {
         const modal = document.getElementById('viewerModal');
         modal.style.display = 'block';
@@ -608,11 +419,75 @@
             closeModal();
         }
     }
+    const token = document.getElementById('token_id').value ;
+
+    function updateBg (){
+      const condn = document.getElementById('cond').innerText;
+
+      if (condn == 'Normal'){
+        document.getElementById('condnCard').style.backgroundColor = 'green';
+      } else if (condn == 'Critical'){
+        document.getElementById('condnCard').style.backgroundColor = 'yellow';
+      } else {
+        document.getElementById('condnCard').style.backgroundColor = 'red';
+      }
+    }
+
+    updateBg();
 
 
-     /* Function to open medicaal report */
+    function addMedicalReports (){
+        const token = document.getElementById('token_id').value;
+        $.ajax({
+            url: '/getMedicalReports',
+            type: 'POST',
+            data: {'token' : token},
+            success: function (data) {
+
+                for (i = 0 ; i < data.length ; i++){
+                    data[i]['file'] = `<button class="btn btn-primary" onclick="viewReport('${data[i]['files']}' , '${data[i]['description']}')">View Report</button>`;
+                }
+
+                var table = $("#user-table").DataTable();
+                table.destroy();
+                table = document.getElementById("user-table");
+                table.innerHTML = "";
+                table = document.getElementById("user-table");
+                //   console.log (table.innerHTML);
+                table.innerHTML = `<thead class = "table-dark">
+                <tr>
+                    <th scope="col">Token No</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">View Report</th>
+                </tr>
+              </thead>
+              <tbody id ="tableWork">
+              
+              </tbody>  `;
+                $("#user-table").DataTable({
+                dom: "Bfrtip",
+                buttons: [
+                ],
+                responsive: true,
+                data: data,
+                columns: [
+                    { data: "token" },
+                    { data: "description" },
+                    { data: "file" }
+                    
+                ],
+                order : [[0,'desc']]
+                });
+            }
+        });
+    }
+
+    addMedicalReports();
+
+
+    /* Function to open medicaal report */
     
-     function viewReport (file,  desc){
+    function viewReport (file,  desc){
       const ext = file.slice (-3);
 
       if (ext == 'pdf'){
@@ -632,6 +507,7 @@
       openModal();
 
     }
+
   </script>
 
 </body>

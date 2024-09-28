@@ -25,6 +25,24 @@
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 
+    <style>
+      /* For Display Border on the Input Text box*/
+      .textBox{
+        border : 1px solid rgb(201, 201, 201);
+        border-radius: 5px;
+        
+      }
+
+      .list-group-flush>.list-group-item {
+      border-width: 0 0 1px;
+      background-color: #ff3636;
+      border: 3px solid #ffffff;
+      border-radius: 7px;
+      color: white;
+      font-family: math;
+      }
+    </style>
+
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   
@@ -44,16 +62,10 @@
           </a>
 
           <a href="/showproducts" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-users fa-fw me-3"></i><span>Show Products</span></a>
-
-          <a href="/createSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-calendar fa-fw me-3"></i><span>Create Schedule</span></a>
-
-          <a href="/getSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-calendar-check-o fa-fw me-3"></i><span>Get Schedule</span></a>
+              class="fas fa-users fa-fw me-3"></i><span>Register Appoint.</span></a>
 
           <a href="/getdcr" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-calendar-check-o fa-fw me-3"></i><span>ADD DCR</span></a>
+              class="fas fa-calendar-check-o fa-fw me-3"></i><span>View Appoint.</span></a>
 
               <a href="/changePswd" class="list-group-item list-group-item-action py-2 ripple"><i
                 class="fas fa-fingerprint fa-fw me-3"></i><span>Change Password</span></a>
@@ -126,22 +138,7 @@
         <section id="maindashboard">
           <div class="row">
 
-            <!-- Counters          Products-->
-            <div class="col-xl-3 col-sm-6 col-12 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-between px-md-1">
-                    <div class="align-self-center">
-                      <i class="fa-solid fa-book text-info fa-3x"></i>
-                    </div>
-                    <div class="text-end">
-                      <h3 id="total-products">7</h3>
-                      <p class="mb-0">Total Prescirptions</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
 
             <!-- Registered Doctors Counters-->
             <div class="col-xl-3 col-sm-6 col-12 mb-4">
@@ -152,7 +149,7 @@
                       <i class="fa-solid fa-book-open-reader text-warning fa-3x"></i>
                     </div>
                     <div class="text-end">
-                      <h3 id="registered-doctor">10</h3>
+                      <h3 id="registered-doctor"><%=total%></h3>
                       <p class="mb-0">Total Appointments</p>
                     </div>
                   </div>
@@ -160,39 +157,6 @@
               </div>
             </div>
 
-            <!-- Your Registered Doctors Counters-->
-            <div class="col-xl-3 col-sm-6 col-12 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-between px-md-1">
-                    <div>
-                      <h3 class="text-success" id="own-register">7</h3>
-                      <p class="mb-0">Approved Appointments</p>
-                    </div>
-                    <div class="align-self-center">
-                      <i class="far fa-user text-success fa-3x"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Pending Schedule Counters-->
-            <div class="col-xl-3 col-sm-6 col-12 mb-4">
-              <div class="card">
-                <div class="card-body">
-                  <div class="d-flex justify-content-between px-md-1">
-                    <div>
-                      <h3 class="text-danger" id="pending-approval">3</h3>
-                      <p class="mb-0">Rejected Appointments</p>
-                    </div>
-                    <div class="align-self-center">
-                      <i class="fa-solid fa-exclamation fa-3x"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
           <div class="row">
 

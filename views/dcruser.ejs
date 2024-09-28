@@ -2,7 +2,7 @@
 
 <head>
   <title>
-    DCR
+    Upload Reports
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--Gooogle Auth-->
@@ -45,6 +45,22 @@
 
   <style>
 
+    /* For Display Border on the Input Text box*/
+    .textBox{
+      border : 1px solid rgb(201, 201, 201);
+      border-radius: 5px;
+      
+    }
+
+    .list-group-flush>.list-group-item {
+    border-width: 0 0 1px;
+    background-color: #ff3636;
+    border: 3px solid #ffffff;
+    border-radius: 7px;
+    color: white;
+    font-family: math;
+    }
+
     /* Styling  for the remark field*/
     #remarks {
       border: 1px solid rgb(195, 193, 193);
@@ -86,16 +102,10 @@
           </a>
 
           <a href="/showproducts" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-users fa-fw me-3"></i><span>Show Products</span></a>
-
-          <a href="/createSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-calendar fa-fw me-3"></i><span>Create Schedule</span></a>
-
-          <a href="/getSchedule" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-calendar-check-o fa-fw me-3"></i><span>Get Schedule</span></a>
+              class="fas fa-users fa-fw me-3"></i><span>Register Appoint.</span></a>
 
           <a href="/getdcr" class="list-group-item list-group-item-action py-2 ripple"><i
-              class="fas fa-calendar-check-o fa-fw me-3"></i><span>ADD DCR</span></a>
+              class="fas fa-calendar-check-o fa-fw me-3"></i><span>View Appoint.</span></a>
 
               <a href="/changePswd" class="list-group-item list-group-item-action py-2 ripple"><i
                 class="fas fa-fingerprint fa-fw me-3"></i><span>Change Password</span></a>
@@ -171,68 +181,26 @@
         <div class="card">
           <div class="card-header text-center py-3">
             <h5 class="mb-0 text-center">
-              ADD DCR
+              Upload Reports
             </h5>
           </div>
           <div class="card-body">
             <div class="table-responsive">
-              <table class="table table-hover text-nowrap">
-                <form action="/dcrform" method="post" id="mainform">
-
-                  <div class="row">
-
-                    <!-- Date Field-->
-                    <div class="col-md-6 mb-4">
-                      Date
-                      <div class="form-outline textBox">
-                        <input type="date" required id="date" name="date" class="form-control form-control-lg" /
-                          onchange="checksch()">
-                      </div>
-                    </div>
-
-                    <!-- Schedule Status -->
-                    <div class="col-md-6 mb-4">
-                      <div class="form-outline">
-                        Schedule Status
-                        <input type="text" required id="schedulestatus" name="schedulestatus"
-                          class="form-control form-control-lg" / readonly>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="row schdepend">
-                    <!-- Taking the number of Visits -->
-                    <div class="col-md-6 mb-4">
-                      Visits
-                      <div class="form-outline textBox">
-                          <input type="text" required id="visitOpt" name="visitOpt"
-                              class="form-control form-control-lg" / readonly>
-
-                      </div>
-                    </div>
-
-                    <!-- Select the Status -->
-                    <div class="col-md-6 mb-4">
-                      Select Status
-                      <select class="select form-control" id="status" name="status" required
-                        onchange="updateSchStatus(this)">
-                        <option value="" disabled>Select Status</option>
-                        <option value="Working">Working</option>
-                        <option value="Work From Home">Work From Home</option>
-                        <option value="Meeting">Meeting</option>
-                        <option value="Holiday">Holiday</option>
-                        <option value="Leave">Leave</option>
-                        <option value="Strike">Strike</option>
-                        <option value="Interview">Interview</option>
-                        <option value="Training">Training</option>
-                        <option value="Induction">Induction</option>
-                        <option value="Transit">Transit</option>
-                        <option value="Others">Others</option>
-                      </select>
-                    </div>
-                  </div>
-                </form>
+              <table class="table table-hover text-nowrap" id="user-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Token No</th>
+                    <th scope="col">Appointment Date</th> 
+                    <th scope="col">Doctor Name</th>
+                    <th scope="col">Speciality</th>
+                    <th scope="col">Appointment Completed</th> 
+                    <th scope="col">View Report</th> 
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                </tbody>
               </table>
             </div>
           </div>
@@ -256,21 +224,68 @@
   <script type="text/javascript" src="js/script.js"></script>
 
   <script>
-    function converter(number) {
-      return (number < 10 ? '0' : '') + number
+    function getAppointments (){
+      $.ajax({
+        url: '/getAppointments',
+        type: 'GET',
+        success: function (data) {
+          if (data.length == 0){
+            alert ('No Appointments Found');
+            return;
+          }
+
+          for (i = 0 ; i < data.length ; i++){
+            data[i]['button'] = `<button class = "btn btn-primary" onclick = "viewReport('${data[i].token}')">View Report</button>`;
+          }
+
+          var table = $("#user-table").DataTable();
+          table.destroy();
+          table = document.getElementById("user-table");
+          table.innerHTML = "";
+          table = document.getElementById("user-table");
+          //   console.log (table.innerHTML);
+          table.innerHTML = `<thead class = "table-dark">
+                  <tr>
+                    <th scope="col">Token No</th>
+                    <th scope="col">Appointment Date</th> 
+                    <th scope="col">Doctor Name</th>
+                    <th scope="col">Speciality</th>
+                    <th scope="col">Appointment Completed</th> 
+                    <th scope="col">View Report</th> 
+                  </tr>
+                </thead>
+                <tbody id ="tableWork">
+                
+                </tbody>  `;
+            $("#user-table").DataTable({
+              dom: "Bfrtip",
+              buttons: [
+              ],
+              responsive: true,
+              data: data,
+              columns: [
+                { data: "token" },
+                { data: "adate" },
+                { data: "doctorn" },
+                { data: "speciality" },
+                { data: "visit" },
+                { data: "button" },
+                
+                
+              ],
+              order : [[0,'desc']]
+            });
+          
+        }
+      });
     }
 
-    let x = new Date();
-    let z = new Date();
-    x.setDate(x.getDate() - 7);
+    getAppointments();
 
 
-    let y = x.getFullYear() + "-" + converter((x.getMonth() + 1)) + "-" + converter(x.getDate());
-
-    document.getElementById('date').setAttribute('min', y);
-
-    y = z.getFullYear() + "-" + converter((z.getMonth() + 1)) + "-" + converter(z.getDate());
-    document.getElementById('date').setAttribute('max', y);
+    function viewReport (token){
+      window.location.href = `/viewReport/${token}`;
+    }
   </script>
 </body>
 
